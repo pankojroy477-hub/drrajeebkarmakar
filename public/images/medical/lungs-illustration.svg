@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="lungGradLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1677D2" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#071B49" stop-opacity="0.95" />
+    </linearGradient>
+    <linearGradient id="lungGradRight" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#25C5E8" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#13A89E" stop-opacity="0.95" />
+    </linearGradient>
+    <linearGradient id="tracheaGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#25C5E8" />
+      <stop offset="100%" stop-color="#1677D2" />
+    </linearGradient>
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background Decorative Medical Grid / Waves -->
+  <g opacity="0.15" stroke="#25C5E8" stroke-width="1.2">
+    <circle cx="300" cy="300" r="260" stroke-dasharray="8 8" />
+    <circle cx="300" cy="300" r="210" />
+    <circle cx="300" cy="300" r="160" stroke-dasharray="4 4" />
+    <path d="M50 300h500M300 50v500" stroke-dasharray="2 4" />
+  </g>
+
+  <!-- Left Lung (Anatomical Right) -->
+  <path d="M280 180 C260 160, 200 160, 160 210 C120 260, 110 350, 130 420 C150 480, 200 500, 250 490 C270 485, 275 440, 275 390 C275 310, 280 230, 280 180 Z"
+        fill="url(#lungGradLeft)" stroke="#25C5E8" stroke-width="3" filter="url(#subtleGlow)" />
+
+  <!-- Right Lung (Anatomical Left with Cardiac Notch) -->
+  <path d="M320 180 C340 160, 400 160, 440 210 C480 260, 490 350, 470 420 C450 480, 400 500, 350 490 C335 485, 335 440, 330 410 C320 360, 315 320, 320 260 C320 220, 320 190, 320 180 Z"
+        fill="url(#lungGradRight)" stroke="#25C5E8" stroke-width="3" filter="url(#subtleGlow)" />
+
+  <!-- Trachea (Windpipe) Rings -->
+  <g stroke="url(#tracheaGrad)" stroke-width="4" stroke-linecap="round">
+    <line x1="285" y1="70" x2="315" y2="70" />
+    <line x1="285" y1="85" x2="315" y2="85" />
+    <line x1="285" y1="100" x2="315" y2="100" />
+    <line x1="285" y1="115" x2="315" y2="115" />
+    <line x1="285" y1="130" x2="315" y2="130" />
+    <line x1="285" y1="145" x2="315" y2="145" />
+    <line x1="285" y1="160" x2="315" y2="160" />
+    <line x1="285" y1="175" x2="315" y2="175" />
+  </g>
+
+  <!-- Trachea Outer Path -->
+  <path d="M285 60 L285 180 L230 250 M315 60 L315 180 L370 250" stroke="#ffffff" stroke-width="5" stroke-linecap="round" fill="none" />
+
+  <!-- Bronchial Tree Branches — Left Lung -->
+  <g stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" opacity="0.85">
+    <path d="M230 250 L180 290 M230 250 L220 340 M180 290 L150 330 M180 290 L170 260 M220 340 L180 400 M220 340 L230 430" />
+  </g>
+
+  <!-- Bronchial Tree Branches — Right Lung -->
+  <g stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" opacity="0.85">
+    <path d="M370 250 L420 290 M370 250 L380 340 M420 290 L450 330 M420 290 L430 260 M380 340 L420 400 M380 340 L370 430" />
+  </g>
+
+  <!-- Glowing Alveoli Nodes -->
+  <g fill="#25C5E8" filter="url(#subtleGlow)">
+    <circle cx="150" cy="330" r="6" />
+    <circle cx="170" cy="260" r="5" />
+    <circle cx="180" cy="400" r="6" />
+    <circle cx="230" cy="430" r="5" />
+    <circle cx="450" cy="330" r="6" />
+    <circle cx="430" cy="260" r="5" />
+    <circle cx="420" cy="400" r="6" />
+    <circle cx="370" cy="430" r="5" />
+  </g>
+
+  <!-- Stethoscope / Medical Heartbeat Pulse Line -->
+  <path d="M120 540 H240 L255 510 L270 565 L290 480 L310 570 L325 525 L340 540 H480"
+        stroke="#25C5E8" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.75" />
+</svg>

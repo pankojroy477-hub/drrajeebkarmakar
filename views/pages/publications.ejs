@@ -1,0 +1,124 @@
+<!-- ==========================================
+     PAGE HEADER
+     ========================================== -->
+<div class="bg-[#071B49] text-white py-12 border-b border-white/10">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center gap-2 text-xs text-[#25C5E8] mb-3">
+      <a href="/" class="hover:underline">Home / মূলপাতা</a>
+      <span>/</span>
+      <span class="text-white">Publications / গবেষণা</span>
+    </div>
+    <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight">
+      <span class="lang-text" data-en="Research & Scientific Publications" data-bn="গবেষণা ও বৈজ্ঞানিক প্রকাশনাসমূহ">গবেষণা ও বৈজ্ঞানিক প্রকাশনাসমূহ</span>
+    </h1>
+    <p class="text-sm sm:text-base text-white/80 mt-2 max-w-3xl">
+      <span class="lang-text" 
+        data-en="13 original research papers and studies in thoracic surgery, post-lobectomy pulmonary function, critical care, and pulmonology authored by Dr. Rajeeebshankar Karmakar." 
+        data-bn="থোরাসিক সার্জারি, লোবেকটোমি পরবর্তী ফুসফুসের কার্যক্ষমতা, ক্রিটিক্যাল কেয়ার ও বক্ষব্যাধি সংক্রান্ত ১৩টি বৈজ্ঞানিক প্রকাশনা।">
+        থোরাসিক সার্জারি, লোবেকটোমি পরবর্তী ফুসফুসের কার্যক্ষমতা, ক্রিটিক্যাল কেয়ার ও বক্ষব্যাধি সংক্রান্ত ১৩টি বৈজ্ঞানিক প্রকাশনা।
+      </span>
+    </p>
+  </div>
+</div>
+
+<!-- ==========================================
+     PUBLICATIONS LIST & SEARCH
+     ========================================== -->
+<section class="py-16 bg-[#FAFCFF] border-b border-[#E2E8F0]">
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+    <!-- Search Bar & Counter -->
+    <div class="med-card p-4 sm:p-6 mb-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="w-full sm:w-80 relative">
+        <input 
+          type="search" 
+          id="pub-search-input" 
+          class="form-input text-xs sm:text-sm pl-9" 
+          placeholder="গবেষণাপত্র খুঁজুন (যেমন: lobectomy, sepsis, trauma)"
+          data-placeholder-en="Filter publications (e.g. lobectomy, sepsis, trauma)"
+          data-placeholder-bn="গবেষণাপত্র খুঁজুন (যেমন: lobectomy, sepsis, trauma)"
+        />
+        <svg class="w-4 h-4 text-[#5A6A85] absolute left-3 top-3.5 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+        </svg>
+      </div>
+
+      <div class="text-xs sm:text-sm text-[#5A6A85] font-semibold flex items-center gap-1.5 self-end sm:self-center">
+        <span class="lang-text" data-en="Showing" data-bn="প্রদর্শিত হচ্ছে:">প্রদর্শিত হচ্ছে:</span>
+        <span id="pub-active-count" class="text-[#071B49] font-bold text-base"><%= publications.length %></span>
+        <span class="lang-text" data-en="of <%= publications.length %> publications" data-bn="টি মোট প্রকাশনা">টি মোট প্রকাশনা</span>
+      </div>
+    </div>
+
+    <!-- Publications List -->
+    <div class="space-y-5" id="publications-container">
+      <% publications.forEach((pub, index) => { %>
+        <article 
+          class="pub-card pub-card-item flex flex-col sm:flex-row items-start justify-between gap-4"
+          data-title="<%= pub.title %>"
+          data-journal="<%= pub.journal %>"
+          data-category="<%= pub.category %>"
+          data-year="<%= pub.year %>"
+        >
+          <div class="space-y-2 flex-grow">
+            
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="px-2.5 py-0.5 rounded-full bg-blue-50 text-[#1677D2] font-bold text-xs">
+                #<%= index + 1 %>
+              </span>
+              <span class="pub-badge"><%= pub.year %></span>
+              <span class="text-xs font-semibold text-[#1677D2]"><%= pub.journal %></span>
+              <% if (pub.volume) { %>
+                <span class="text-xs text-[#5A6A85] font-medium"><%= pub.volume %></span>
+              <% } %>
+              <span class="text-[11px] text-[#13A89E] font-medium bg-teal-50 px-2 py-0.5 rounded">
+                <%= pub.category %>
+              </span>
+            </div>
+
+            <h2 class="text-base sm:text-lg font-bold text-[#071B49] leading-snug">
+              <%= pub.title %>
+            </h2>
+
+            <% if (pub.doi) { %>
+              <div class="flex items-center gap-2 text-xs text-[#5A6A85] font-mono">
+                <span class="font-semibold text-[#071B49]">DOI:</span>
+                <span><%= pub.doi %></span>
+              </div>
+            <% } %>
+
+          </div>
+
+          <% if (pub.doiUrl) { %>
+            <div class="flex-shrink-0 self-start sm:self-center">
+              <a 
+                href="<%= pub.doiUrl %>" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="btn-secondary-outline text-xs py-2 px-3.5 inline-flex items-center gap-1.5"
+                aria-label="View DOI for <%= pub.title %>"
+              >
+                <span>Read Publication</span>
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+                </svg>
+              </a>
+            </div>
+          <% } %>
+        </article>
+      <% }); %>
+    </div>
+
+    <!-- Bibliographic Note -->
+    <div class="mt-12 p-4 rounded-xl bg-gray-50 border border-[#E2E8F0] text-xs text-[#5A6A85] leading-relaxed">
+      <p>
+        <span class="lang-text" 
+          data-en="Note: Bibliographic information is presented faithfully according to the author's curriculum vitae and indexed medical repositories. Publication titles remain in their original peer-reviewed publication language."
+          data-bn="দৃষ্টি আকর্ষণ: উল্লেখিত গবেষণাপত্রগুলোর শিরোনাম ও তথ্য লেখকের অফিসিয়াল কারিকুলাম ভিটা ও আন্তর্জাতিক মেডিকেল ইনডেক্স অনুযায়ী অবিকৃতভাবে উপস্থাপিত।">
+          দৃষ্টি আকর্ষণ: উল্লেখিত গবেষণাপত্রগুলোর শিরোনাম ও তথ্য লেখকের অফিসিয়াল কারিকুলাম ভিটা ও আন্তর্জাতিক মেডিকেল ইনডেক্স অনুযায়ী অবিকৃতভাবে উপস্থাপিত।
+        </span>
+      </p>
+    </div>
+
+  </div>
+</section>

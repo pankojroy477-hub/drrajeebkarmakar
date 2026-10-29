@@ -1,0 +1,606 @@
+{
+  "site": {
+    "name": "Dr. Rajeebshankar Karmakar",
+    "domain": "https://drrajeebkarmakar.com",
+    "defaultLanguage": "bn",
+    "taglineEn": "Expert Care for Healthy Lungs & Better Life",
+    "taglineBn": "সুস্থ ফুসফুস, স্বস্তির নিঃশ্বাস, উন্নত জীবন"
+  },
+  "doctor": {
+    "nameEn": "Dr. Rajeebshankar Karmakar",
+    "nameBn": "ডা. রাজীবশঙ্কর কর্মকার",
+    "designationEn": "Assistant Professor (Thoracic Surgery)",
+    "designationBn": "সহকারী অধ্যাপক (থোরাসিক সার্জারি)",
+    "additionalDesignationEn": "Consultant, Thoracic & Oesophageal Surgeon",
+    "additionalDesignationBn": "কনসালটেন্ট, থোরাসিক ও খাদ্যনালী সার্জন",
+    "specialtyEn": "Chest Specialist & Surgical Pulmonologist",
+    "specialtyBn": "বক্ষব্যাধি বিশেষজ্ঞ ও সার্জিক্যাল পালমোনোলজিস্ট",
+    "experienceYears": 12,
+    "bmdcRegistration": "A-61665",
+    "currentWorkplaceEn": "Faridpur Medical College Hospital, Faridpur, Bangladesh",
+    "currentWorkplaceBn": "ফরিদপুর মেডিকেল কলেজ হাসপাতাল, ফরিদপুর, বাংলাদেশ",
+    "departmentEn": "Department of Thoracic Surgery",
+    "departmentBn": "থোরাসিক সার্জারি বিভাগ",
+    "languages": [
+      { "nameEn": "Bengali", "nameBn": "বাংলা" },
+      { "nameEn": "English", "nameBn": "ইংরেজি" },
+      { "nameEn": "Hindi", "nameBn": "হিন্দি" }
+    ],
+    "profileImage": "/images/doctor/doctor-main.png",
+    "bioSummaryEn": "Dr. Rajeebshankar Karmakar is an Assistant Professor of Thoracic Surgery at Faridpur Medical College Hospital with over 12 years of extensive clinical and surgical experience in managing complex thoracic, respiratory, and oesophageal diseases. Trained at the premier National Institute of Diseases of the Chest and Hospital (NIDCH), he holds memberships of the Royal Colleges of Surgeons in Ireland (MRCSI) and Edinburgh (MRCSEd) and is a Fellow of the International College of Surgeons (FICS).",
+    "bioSummaryBn": "ডা. রাজীবশঙ্কর কর্মকার ফরিদপুর মেডিকেল কলেজ হাসপাতালের থোরাসিক সার্জারি বিভাগের সহকারী অধ্যাপক। বক্ষব্যাধি, ফুসফুস ও খাদ্যনালীর জটিল রোগ নির্ণয় ও আধুনিক সার্জারিতে তাঁর ১২ বছরেরও বেশি ক্লিনিক্যাল ও সার্জিক্যাল অভিজ্ঞতা রয়েছে। জাতীয় বক্ষব্যাধি ইনস্টিটিউট ও হাসপাতাল (NIDCH) থেকে থোরাসিক সার্জারিতে এমএস ডিগ্রিধারী এই চিকিৎসক রয়্যাল কলেজ অব সার্জনস ইন আয়ারল্যান্ড (MRCSI) ও এডিনবরা (MRCSEd)-এর সদস্য এবং ইন্টারন্যাশনাল কলেজ অব সার্জনস (FICS)-এর ফেলো।",
+    "bioFullEn": "Dr. Rajeebshankar Karmakar is a distinguished thoracic and oesophageal surgeon currently serving as Assistant Professor in the Department of Thoracic Surgery at Faridpur Medical College Hospital, Faridpur, Bangladesh. Having completed his MBBS from Faridpur Medical College in 2012, he joined the Bangladesh Civil Service (Health Cadre, 33rd BCS) where he rendered comprehensive clinical care across primary and secondary healthcare centers. He subsequently pursued advanced surgical specialization, attaining his Master of Surgery (MS) in Thoracic Surgery from the National Institute of Diseases of the Chest and Hospital (NIDCH) under Bangladesh Medical University (formerly BSMMU). His surgical training and credentials include prestigious international qualifications: Membership of the Royal College of Surgeons in Ireland (MRCSI), Membership of the Royal College of Surgeons of Edinburgh (MRCSEd), and Fellowship of the International College of Surgeons (FICS). Over his 12+ years of professional practice, he has managed diverse acute and chronic respiratory disorders, thoracic trauma, pleural conditions, lung nodules and malignancies, and complex oesophageal disorders.",
+    "bioFullBn": "ডা. রাজীবশঙ্কর কর্মকার ফরিদপুর মেডিকেল কলেজ হাসপাতালের থোরাসিক সার্জারি বিভাগের সহকারী অধ্যাপক হিসেবে কর্মরত একজন অভিজ্ঞ বক্ষব্যাধি ও খাদ্যনালী সার্জন। ২০১২ সালে ফরিদপুর মেডিকেল কলেজ থেকে এমবিবিএস সম্পন্ন করার পর তিনি ৩৩তম বিসিএস (স্বাস্থ্য ক্যাডার)-এ যোগ দিয়ে বিভিন্ন সরকারি হাসপাতালে নিষ্ঠার সাথে চিকিৎসা সেবা প্রদান করেন। পরবর্তীতে তিনি বাংলাদেশ মেডিকেল বিশ্ববিদ্যালয় (সাবেক বিএসএমএমইউ)-এর অধীনে দেশের শীর্ষস্থানীয় জাতীয় বক্ষব্যাধি ইনস্টিটিউট ও হাসপাতাল (NIDCH) থেকে থোরাসিক সার্জারিতে মাস্টার অব সার্জারি (MS) ডিগ্রি অর্জন করেন। আন্তর্জাতিক অঙ্গনে তাঁর চিকিৎসা দক্ষতার স্বীকৃতিস্বরূপ তিনি রয়্যাল কলেজ অব সার্জনস ইন আয়ারল্যান্ড (MRCSI) ও রয়্যাল কলেজ অব সার্জনস অব এডিনবরা (MRCSEd)-এর মেম্বারশিপ এবং ইন্টারন্যাশনাল কলেজ অব সার্জনস (FICS)-এর ফেলোশিপ লাভ করেন। ১২ বছরের অধিক কর্মজীবনে তিনি জটিল ফুসফুসের সংক্রমণ, টিউমার, প্লুরাল এফিউশন, নিউমোথোরাক্স, বক্ষ ট্রমা এবং খাদ্যনালীর নানা জটিল রোগের সফল চিকিৎসা ও অস্ত্রোপচার পরিচালনা করে আসছেন।"
+  },
+  "contact": {
+    "appointmentPhone": "01944648809",
+    "whatsappNumber": "8801944648809",
+    "email": "rajeebfmc16@gmail.com",
+    "facebook": "https://www.facebook.com/profile.php?id=61581763712798",
+    "website": "https://drrajeebkarmakar.com"
+  },
+  "stats": [
+    {
+      "value": "12+",
+      "number": 12,
+      "suffix": "+",
+      "labelEn": "Years of Experience",
+      "labelBn": "বছরের ক্লিনিক্যাল অভিজ্ঞতা"
+    },
+    {
+      "value": "13",
+      "number": 13,
+      "suffix": "",
+      "labelEn": "Publications Listed in CV",
+      "labelBn": "গবেষণা ও প্রকাশনা"
+    },
+    {
+      "value": "2",
+      "number": 2,
+      "suffix": "",
+      "labelEn": "Chamber Locations",
+      "labelBn": "রোগী দেখার চেম্বার"
+    }
+  ],
+  "chambers": [
+    {
+      "id": "chamber-1",
+      "enabled": true,
+      "hospitalEn": "Southern General Hospital",
+      "hospitalBn": "সাউদার্ন জেনারেল হাসপাতাল",
+      "locationEn": "West Khabaspur, near Faridpur Medical College Hospital, Faridpur-7800, Bangladesh",
+      "locationBn": "পশ্চিম খাবাসপুর, ফরিদপুর মেডিকেল কলেজ হাসপাতালের কাছে, ফরিদপুর-৭৮০০, বাংলাদেশ",
+      "visitingDayEn": "Every Thursday",
+      "visitingDayBn": "প্রতি বৃহস্পতিবার",
+      "visitingTimeEn": "3:00 PM – 5:00 PM",
+      "visitingTimeBn": "বিকেল ৩:০০ – ৫:০০ টা",
+      "appointmentPhone": "01944648809",
+      "whatsappNumber": "8801944648809",
+      "googleMapsQuery": "Southern General Hospital, West Khabaspur, Faridpur",
+      "notesEn": "Located adjacent to Faridpur Medical College Hospital. Advance serial is recommended.",
+      "notesBn": "ফরিদপুর মেডিকেল কলেজ হাসপাতালের সন্নিকটে অবস্থিত। অগ্রিম সিরিয়াল নেওয়া সুবিধাজনক।"
+    },
+    {
+      "id": "chamber-2",
+      "enabled": true,
+      "hospitalEn": "Probashi Hospital",
+      "hospitalBn": "প্রবাসী হাসপাতাল",
+      "locationEn": "Haoladar Tower, Tekerhat Bus Stand, Rajoir, Madaripur, Bangladesh",
+      "locationBn": "হাওলাদার টাওয়ার, টেকেরহাট বাস স্ট্যান্ড, রাজৈর, মাদারীপুর, বাংলাদেশ",
+      "visitingDayEn": "Every Friday",
+      "visitingDayBn": "প্রতি শুক্রবার",
+      "visitingTimeEn": "10:00 AM – 3:00 PM",
+      "visitingTimeBn": "সকাল ১০:০০ – দুপুর ৩:০০ টা",
+      "appointmentPhone": "01944648809",
+      "whatsappNumber": "8801944648809",
+      "googleMapsQuery": "Haoladar Tower, Tekerhat Bus Stand, Rajoir, Madaripur",
+      "notesEn": "Directly at Tekerhat Bus Stand, convenient transportation link for greater Madaripur and Faridpur patients.",
+      "notesBn": "টেকেরহাট বাস স্ট্যান্ডের সাথে অবস্থিত, মাদারীপুর ও পার্শ্ববর্তী অঞ্চলের রোগীদের জন্য যাতায়াত সহজ।"
+    }
+  ],
+  "qualifications": [
+    {
+      "degreeEn": "MBBS",
+      "degreeBn": "এমবিবিএস",
+      "titleEn": "Bachelor of Medicine and Bachelor of Surgery",
+      "titleBn": "ব্যাচেলর অব মেডিসিন অ্যান্ড ব্যাচেলর অব সার্জারি",
+      "institutionEn": "Faridpur Medical College, Faridpur, Bangladesh",
+      "institutionBn": "ফরিদপুর মেডিকেল কলেজ, ফরিদপুর, বাংলাদেশ",
+      "year": "2012"
+    },
+    {
+      "degreeEn": "MS (Pathology)",
+      "degreeBn": "এমএস (প্যাথলজি)",
+      "titleEn": "Professional Master's in Speech and Language Pathology",
+      "titleBn": "প্রফেশনাল মাস্টার্স ইন স্পিচ অ্যান্ড ল্যাঙ্গুয়েজ প্যাথলজি",
+      "institutionEn": "University of Dhaka, Bangladesh",
+      "institutionBn": "ঢাকা বিশ্ববিদ্যালয়, বাংলাদেশ",
+      "year": "2016"
+    },
+    {
+      "degreeEn": "MS (Thoracic Surgery)",
+      "degreeBn": "এমএস (থোরাসিক সার্জারি)",
+      "titleEn": "Master of Surgery in Thoracic Surgery",
+      "titleBn": "মাস্টার অব সার্জারি (থোরাসিক সার্জারি)",
+      "institutionEn": "National Institute of Diseases of the Chest and Hospital (NIDCH), under Bangladesh Medical University (BSMMU), Dhaka",
+      "institutionBn": "জাতীয় বক্ষব্যাধি ইনস্টিটিউট ও হাসপাতাল (NIDCH), বাংলাদেশ মেডিকেল বিশ্ববিদ্যালয় (সাবেক বিএসএমএমইউ), ঢাকা",
+      "year": "2024"
+    },
+    {
+      "degreeEn": "MRCSI",
+      "degreeBn": "এমআরসিএসআই",
+      "titleEn": "Membership of the Royal College of Surgeons in Ireland",
+      "titleBn": "মেম্বারশিপ অব দ্য রয়্যাল কলেজ অব সার্জনস ইন আয়ারল্যান্ড",
+      "institutionEn": "Royal College of Surgeons in Ireland (RCSI)",
+      "institutionBn": "রয়্যাল কলেজ অব সার্জনস ইন আয়ারল্যান্ড",
+      "year": "2025"
+    },
+    {
+      "degreeEn": "MRCSEd",
+      "degreeBn": "এমআরসিএসএড",
+      "titleEn": "Membership of the Royal College of Surgeons of Edinburgh",
+      "titleBn": "মেম্বারশিপ অব দ্য রয়্যাল কলেজ অব সার্জনস অব এডিনবরা",
+      "institutionEn": "Royal College of Surgeons of Edinburgh, UK",
+      "institutionBn": "রয়্যাল কলেজ অব সার্জনস অব এডিনবরা, যুক্তরাজ্য",
+      "year": "2026"
+    },
+    {
+      "degreeEn": "FICS",
+      "degreeBn": "এফআইসিএস",
+      "titleEn": "Fellow, International College of Surgeons",
+      "titleBn": "ফেলো, ইন্টারন্যাশনাল কলেজ অব সার্জনস",
+      "institutionEn": "International College of Surgeons (ICS)",
+      "institutionBn": "ইন্টারন্যাশনাল কলেজ অব সার্জনস",
+      "year": "2026"
+    }
+  ],
+  "experience": [
+    {
+      "roleEn": "Assistant Surgeon",
+      "roleBn": "সহকারী সার্জন",
+      "organizationEn": "Bangladesh Civil Service Health Cadre (33rd BCS), Union & Upazila-level hospitals",
+      "organizationBn": "বাংলাদেশ সিভিল সার্ভিস স্বাস্থ্য ক্যাডার (৩৩তম বিসিএস), মাঠপর্যায়ের সরকারি হাসপাতাল",
+      "period": "2014 – 2021",
+      "descriptionEn": "Delivered frontline primary, maternal, trauma, and secondary healthcare services under the Ministry of Health and Family Welfare.",
+      "descriptionBn": "স্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রণালয়ের অধীন মাঠপর্যায়ে জরুরি চিকিৎসা, ট্রমা ও প্রাথমিক স্বাস্থ্যসেবা প্রদান।"
+    },
+    {
+      "roleEn": "Indoor Medical Officer",
+      "roleBn": "ইনডোর মেডিকেল অফিসার",
+      "organizationEn": "500-Bed Kurmitola General Hospital, Dhaka Cantonment, Dhaka",
+      "organizationBn": "৫০০ শয্যাবিশিষ্ট কুর্মিটোলা জেনারেল হাসপাতাল, ঢাকা সেনানিবাস, ঢাকা",
+      "period": "2017 – 2018",
+      "descriptionEn": "Dedicated service in Therapeutic Pulmonology managing acute respiratory distress, severe pneumonia, tuberculosis, and chronic lung conditions.",
+      "descriptionBn": "থেরাপিউটিক পালমোনোলজি বিভাগে জটিল নিউমোনিয়া, যক্ষ্মা, শ্বাসকষ্ট ও সিওপিডি রোগীদের নিবিড় চিকিৎসাসেবা প্রদান।"
+    },
+    {
+      "roleEn": "Assistant Registrar",
+      "roleBn": "সহকারী রেজিস্ট্রার",
+      "organizationEn": "Department of Casualty, Sir Salimullah Medical College and Mitford Hospital, Dhaka",
+      "organizationBn": "ক্যাজুয়াল্টি বিভাগ, স্যার সলিমুল্লাহ মেডিকেল কলেজ ও মিটফোর্ড হাসপাতাল, ঢাকা",
+      "period": "2020 – 2021",
+      "descriptionEn": "Managed high-acuity surgical trauma emergencies, chest injuries, shock resuscitation, and acute emergency interventions.",
+      "descriptionBn": "জরুরি বক্ষ ট্রমা, সার্জিক্যাল ক্যাজুয়াল্টি, তীব্র আঘাত ও জীবনরক্ষাকারী জরুরি অস্ত্রোপচার পরিচালনা।"
+    },
+    {
+      "roleEn": "Resident Surgeon",
+      "roleBn": "রেসিডেন্ট সার্জন",
+      "organizationEn": "Discipline of Thoracic Surgery, Mugda Medical College and Hospital, Dhaka",
+      "organizationBn": "থোরাসিক সার্জারি বিভাগ, মুগদা মেডিকেল কলেজ ও হাসপাতাল, ঢাকা",
+      "period": "2021 – 2026",
+      "descriptionEn": "Comprehensive clinical, perioperative, and surgical management of thoracic diseases, elective & emergency pulmonary and oesophageal procedures.",
+      "descriptionBn": "বক্ষ ও খাদ্যনালীর জটিল সার্জারি, আইসিইউ ব্যবস্থাপনা ও পোস্ট-অপারেটিভ সার্জিক্যাল কেয়ারে নেতৃত্ব প্রদান।"
+    },
+    {
+      "roleEn": "Assistant Professor",
+      "roleBn": "সহকারী অধ্যাপক",
+      "organizationEn": "Department of Thoracic Surgery, Faridpur Medical College Hospital, Faridpur",
+      "organizationBn": "থোরাসিক সার্জারি বিভাগ, ফরিদপুর মেডিকেল কলেজ হাসপাতাল, ফরিদপুর",
+      "period": "2026 – Present",
+      "descriptionEn": "Academic teaching, resident mentoring, specialized surgical clinics, complex thoracic and oesophageal interventions.",
+      "descriptionBn": "মেডিকেল শিক্ষার্থীদের পাঠদান, জটিল বক্ষ ও খাদ্যনালী সার্জারি সম্পাদন এবং আধুনিক চিকিৎসাসেবা পরিচালনা।"
+    }
+  ],
+  "specialties": [
+    {
+      "id": "cough",
+      "nameEn": "Persistent or Recurrent Cough",
+      "nameBn": "দীর্ঘস্থায়ী বা বারবার কাশি",
+      "descriptionEn": "Comprehensive clinical evaluation of chronic, subacute, and intractable cough unresponsive to regular treatments.",
+      "descriptionBn": "নিয়মিত ঔষধে না সারা দীর্ঘমেয়াদী কাশি এবং জটিল কাশির নির্ভুল কারণ নির্ণয় ও প্রতিকার।",
+      "icon": "cough"
+    },
+    {
+      "id": "shortness-breath",
+      "nameEn": "Shortness of Breath & Dyspnea",
+      "nameBn": "শ্বাসকষ্ট ও হাঁপ ধরা",
+      "descriptionEn": "Systematic assessment of exertional breathlessness, acute air hunger, and restrictive lung dysfunctions.",
+      "descriptionBn": "শারীরিক পরিশ্রম বা বিশ্রামের সময় তীব্র বা দীর্ঘদিনের শ্বাসকষ্টের সুনির্দিষ্ট ব্যবস্থাপনা।",
+      "icon": "wind"
+    },
+    {
+      "id": "asthma",
+      "nameEn": "Bronchial Asthma",
+      "nameBn": "ব্রঙ্কিয়াল অ্যাজমা বা হাঁপানি",
+      "descriptionEn": "Modern step-wise management of reactive airway inflammation, nocturnal wheezing, and allergic bronchospasms.",
+      "descriptionBn": "শ্বাসনালীর প্রদাহ, বুকে সাঁই সাঁই শব্দ ও এলার্জিজনিত তীব্র শ্বাসকষ্টের আধুনিক চিকিৎসা।",
+      "icon": "activity"
+    },
+    {
+      "id": "copd",
+      "nameEn": "Chronic Obstructive Pulmonary Disease (COPD)",
+      "nameBn": "সিওপিডি (COPD)",
+      "descriptionEn": "Long-term respiratory management, exacerbation reduction, and peri-operative optimization for smokers and chronic lung patients.",
+      "descriptionBn": "ধূমপান বা ধোঁয়াজনিত দীর্ঘমেয়াদী ফুসফুসের কার্যক্ষমতা হ্রাস ও মারাত্মক শ্বাসকষ্টের বিশেষজ্ঞ চিকিৎসা।",
+      "icon": "lungs"
+    },
+    {
+      "id": "pneumonia",
+      "nameEn": "Pneumonia & Chest Infections",
+      "nameBn": "নিউমোনিয়া ও ফুসফুসের সংক্রমণ",
+      "descriptionEn": "Targeted clinical therapy for community-acquired, hospital-acquired, and complicated pulmonary parenchyma infections.",
+      "descriptionBn": "ফুসফুসের তীব্র ব্যাকটেরিয়াল বা ভাইরাল সংক্রমণ ও জটিল নিউমোনিয়ার নিবিড় পরিচর্যা।",
+      "icon": "shield-alert"
+    },
+    {
+      "id": "tuberculosis",
+      "nameEn": "Pulmonary Tuberculosis & Sequelae",
+      "nameBn": "যক্ষ্মা ও যক্ষ্মাপরবর্তী জটিলতা",
+      "descriptionEn": "Medical management and specialized surgical evaluation for post-tubercular bronchiectasis, destroyed lung, and fibrothorax.",
+      "descriptionBn": "ফুসফুসের যক্ষ্মা ও যক্ষ্মা-পরবর্তী ফুসফুস নষ্ট হওয়া বা জটিল ক্ষতসমূহের বিশেষায়িত চিকিৎসা।",
+      "icon": "file-text"
+    },
+    {
+      "id": "chest-pain",
+      "nameEn": "Thoracic & Chest Pain",
+      "nameBn": "বুকের ব্যথা ও অস্বস্তি",
+      "descriptionEn": "Differential diagnostic assessment of pleuritic, musculoskeletal, and mediastinal chest pain origins.",
+      "descriptionBn": "বুকের খাঁচা, প্লুরা বা ফুসফুসের কারণে সৃষ্ট তীব্র বা দীর্ঘদিনের বুকের ব্যথার কারণ নির্ণয়।",
+      "icon": "heart-pulse"
+    },
+    {
+      "id": "hemoptysis",
+      "nameEn": "Coughing up Blood (Hemoptysis)",
+      "nameBn": "কাশির সাথে রক্ত পড়া (হিমোপটিসিস)",
+      "descriptionEn": "Urgent diagnostic investigation and surgical intervention for mild to life-threatening hemoptysis.",
+      "descriptionBn": "কাশির সাথে কফ বা তাজা রক্ত আসার কারণ অবিলম্বে চিহ্নিতকরণ এবং প্রয়োজনে জরুরি সার্জারি।",
+      "icon": "alert-circle"
+    },
+    {
+      "id": "pleural-effusion",
+      "nameEn": "Pleural Effusion (Fluid in Chest)",
+      "nameBn": "ফুসফুসের ঝিল্লিতে পানি জমা",
+      "descriptionEn": "Minimally invasive diagnostic thoracentesis, chest tube insertion, and VATS pleural evaluation.",
+      "descriptionBn": "ফুসফুসের পর্দায় জমে থাকা তরল অপসারণ, কারণ শনাক্তকরণ এবং আধুনিক থোরাসিক ড্রেন ও বায়োপসি।",
+      "icon": "droplets"
+    },
+    {
+      "id": "empyema",
+      "nameEn": "Empyema Thoracis (Pus in Chest)",
+      "nameBn": "বুকে পুঁজ জমা (এমপায়েমা)",
+      "descriptionEn": "Medical and surgical clearance of thoracic loculated pus, decortication, and restoration of lung expansion.",
+      "descriptionBn": "ফুসফুসের পর্দায় পুঁজ জমার আধুনিক চিকিৎসা, পাইপ ড্রেন এবং ফুসফুস স্বাভাবিক করার ডিকর্টিকেশন অপারেশন।",
+      "icon": "thermometer"
+    },
+    {
+      "id": "lung-nodules",
+      "nameEn": "Lung Nodules, Masses & Tumors",
+      "nameBn": "ফুসফুসের টিউমার ও মাংসপিণ্ড",
+      "descriptionEn": "High-resolution staging, minimally invasive biopsy, and curative oncological resections.",
+      "descriptionBn": "সিটি স্ক্যানে ধরা পড়া ফুসফুসের টিউমার বা নডিউলের সঠিক মূল্যায়ন, বায়োপসি ও অস্ত্রোপচার।",
+      "icon": "search"
+    },
+    {
+      "id": "oesophageal-diseases",
+      "nameEn": "Oesophageal Disorders & Tumors",
+      "nameBn": "খাদ্যনালীর রোগ ও টিউমার",
+      "descriptionEn": "Management of swallowing difficulty (dysphagia), strictures, achalasia, and malignant oesophageal growths.",
+      "descriptionBn": "খাবার গিলতে কষ্ট হওয়া, খাদ্যনালী সরু হয়ে যাওয়া, খাদ্যনালীর মাংসপিণ্ড ও খাদ্যনালী ক্যান্সারের শল্যচিকিৎসা।",
+      "icon": "git-commit"
+    },
+    {
+      "id": "chest-trauma",
+      "nameEn": "Chest Trauma & Rib Fractures",
+      "nameBn": "বুকের আঘাত ও পাঁজরের হাড় ভাঙা",
+      "descriptionEn": "Evidence-based ATLS trauma care for blunt and penetrating thoracic injuries, flail chest, and hemothorax.",
+      "descriptionBn": "সড়ক দুর্ঘটনা বা আঘাতে বুকে আঘাত, পাঁজরের হাড় ভাঙা ও অভ্যন্তরীণ রক্তক্ষরণের জরুরি চিকিৎসা।",
+      "icon": "bandage"
+    },
+    {
+      "id": "pneumothorax",
+      "nameEn": "Pneumothorax (Air Leak in Chest)",
+      "nameBn": "ফুসফুস ফেটে বাতাস জমা (নিউমোথোরাক্স)",
+      "descriptionEn": "Emergency pleural decompression, chest tube drainage, and definitive VATS bullectomy / pleurodesis.",
+      "descriptionBn": "ফুসফুস থেকে বাতাস বের হয়ে বুকের ভেতর আটকে শ্বাসকষ্ট হওয়ার দ্রুত নিরাময় ও সার্জারি।",
+      "icon": "zap"
+    },
+    {
+      "id": "foreign-bodies",
+      "nameEn": "Airway & Oesophageal Foreign Bodies",
+      "nameBn": "শ্বাসনালী ও খাদ্যনালীতে বাহ্যিক বস্তু আটকানো",
+      "descriptionEn": "Rigid and flexible endoscopic removal of foreign objects lodged in the upper airway, oesophagus, or stomach.",
+      "descriptionBn": "শিশু বা বয়স্কদের শ্বাসনালী ও খাদ্যনালীতে আটকে যাওয়া জিনিসপত্র এন্ডোস্কোপি ও ব্রঙ্কোস্কোপির মাধ্যমে অপসারণ।",
+      "icon": "crosshair"
+    }
+  ],
+  "procedures": [
+    {
+      "categoryEn": "Major Thoracic Resections",
+      "categoryBn": "ফুসফুসের প্রধান শল্যচিকিৎসা",
+      "items": [
+        { "nameEn": "Open Thoracotomy", "nameBn": "ওপেন থোরাকোটোমি" },
+        { "nameEn": "Lobectomy", "nameBn": "লোবেকটোমি (ফুসফুসের নির্দিষ্ট অংশ অপসারণ)" },
+        { "nameEn": "Pneumonectomy", "nameBn": "নিউমোনেকটোমি (সম্পূর্ণ ফুসফুস অপসারণ)" },
+        { "nameEn": "Decortication of Lung", "nameBn": "ডিকর্টিকেশন (ফুসফুসের শক্ত আবরণ অপসারণ)" }
+      ]
+    },
+    {
+      "categoryEn": "Oesophageal Surgery",
+      "categoryBn": "খাদ্যনালীর সার্জারি",
+      "items": [
+        { "nameEn": "Ivor Lewis Oesophagectomy", "nameBn": "আইভর লুইস ওসোফেজেকটোমি" },
+        { "nameEn": "Surgery for Benign & Malignant Oesophageal Diseases", "nameBn": "খাদ্যনালীর বিনাইন ও ম্যালিগন্যান্ট রোগের অপারেশন" },
+        { "nameEn": "Management of Corrosive Strictures & Burns", "nameBn": "হারপিক বা অ্যাসিডে খাদ্যনালী পুড়ে যাওয়া বা সরু হওয়ার চিকিৎসা" }
+      ]
+    },
+    {
+      "categoryEn": "Minimally Invasive Thoracoscopy & Biopsy",
+      "categoryBn": "মিনিম্যালি ইনভেসিভ ও থোরাকোস্কোপিক সার্জারি",
+      "items": [
+        { "nameEn": "Video-Assisted Thoracoscopic Surgery (VATS)", "nameBn": "ভিডিও-সহায়ক থোরাকোস্কোপিক সার্জারি (VATS)" },
+        { "nameEn": "Thoracoscopic / VATS Pleural Biopsy", "nameBn": "প্লুরাল বায়োপসি (VATS)" },
+        { "nameEn": "Pleuroscopy", "nameBn": "প্লুরোস্কোপি" }
+      ]
+    },
+    {
+      "categoryEn": "Endoscopic Interventions",
+      "categoryBn": "এন্ডোস্কোপিক ও ব্রঙ্কোস্কোপিক ইন্টারভেনশন",
+      "items": [
+        { "nameEn": "Flexible Bronchoscopy", "nameBn": "ফ্লেক্সিবল ব্রঙ্কোস্কোপি" },
+        { "nameEn": "Rigid Bronchoscopy", "nameBn": "রিজিড ব্রঙ্কোস্কোপি" },
+        { "nameEn": "Flexible & Rigid Endoscopy", "nameBn": "ফ্লেক্সিবল ও রিজিড এন্ডোস্কোপি" },
+        { "nameEn": "Endoscopic Removal of Foreign Bodies (Airway/Oesophagus/Stomach)", "nameBn": "শ্বাসনালী ও খাদ্যনালী থেকে বাহ্যিক বস্তু অপসারণ" }
+      ]
+    },
+    {
+      "categoryEn": "Thoracic Trauma & Critical Care",
+      "categoryBn": "বক্ষ ট্রমা ও জরুরি চিকিৎসা",
+      "items": [
+        { "nameEn": "Tube Thoracostomy (Chest Drain Insertion)", "nameBn": "টিউব থোরাকোস্টোমি (বুকের ড্রেন নল স্থাপন)" },
+        { "nameEn": "Management of Pneumothorax & Pleural Effusion", "nameBn": "নিউমোথোরাক্স ও প্লুরাল এফিউশন ব্যবস্থাপনা" },
+        { "nameEn": "Blunt & Penetrating Chest Trauma (ATLS-guided)", "nameBn": "বুকের ভোঁতা ও ভেদনকারী আঘাতের এটিএলএস-নির্ভর চিকিৎসা" },
+        { "nameEn": "Critical Care & High-Risk Peri-Operative Optimization in COPD", "nameBn": "উচ্চ ঝুঁকিপূর্ণ ও সিওপিডি রোগীদের অপারেশনপূর্ব ও পরবর্তী আইসিইউ পরিচর্যা" }
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": 1,
+      "title": "Evaluation of Late Postoperative Pulmonary Function Following Lobectomy in Patients with Tubercular and Non-tubercular Lung Diseases.",
+      "journal": "Cureus",
+      "year": 2025,
+      "volume": "17(8):e89419",
+      "doi": "10.7759/cureus.89419",
+      "doiUrl": "https://doi.org/10.7759/cureus.89419",
+      "category": "Thoracic Surgery & Pulmonary Function"
+    },
+    {
+      "id": 2,
+      "title": "Role of Perfusion Index as a Predictor of Vasopressor Requirement in Patients With Sepsis.",
+      "journal": "Cureus",
+      "year": 2025,
+      "volume": null,
+      "doi": "10.7759/cureus.100431",
+      "doiUrl": "https://doi.org/10.7759/cureus.100431",
+      "category": "Critical Care & Hemodynamics"
+    },
+    {
+      "id": 3,
+      "title": "Spirometric Outcomes Following Lobectomy: A Non-Tuberculosis Perspective.",
+      "journal": "Faridpur Medical College Journal",
+      "year": 2025,
+      "volume": "20(2):13–17",
+      "doi": "10.3329/fmcj.v20i2.82988",
+      "doiUrl": "https://doi.org/10.3329/fmcj.v20i2.82988",
+      "category": "Pulmonary Function & Resection"
+    },
+    {
+      "id": 4,
+      "title": "Comparison of Postoperative Outcome Between Vertical Right Axillary Thoracotomy and Conventional Median Sternotomy for Atrial Septal Defect Closure in Paediatric Patients.",
+      "journal": "Peer-reviewed medical publication (CC BY 4.0)",
+      "year": 2025,
+      "volume": null,
+      "doi": null,
+      "doiUrl": null,
+      "category": "Thoracotomy & Surgical Approaches"
+    },
+    {
+      "id": 5,
+      "title": "Impact of Lobectomy on Pulmonary Function in Tubercular Patients: A Prospective Analysis.",
+      "journal": "International Journal of Advances in Medicine",
+      "year": 2025,
+      "volume": "12(4):356–361",
+      "doi": "10.18203/2349-3933.ijam20251931",
+      "doiUrl": "https://doi.org/10.18203/2349-3933.ijam20251931",
+      "category": "Thoracic Tuberculosis"
+    },
+    {
+      "id": 6,
+      "title": "Incidence, Associated Factors, and Outcomes Among Patients in Chest Trauma: Analysis of 60 Cases.",
+      "journal": "International Journal of Surgery Science",
+      "year": 2025,
+      "volume": "9(1):10–15",
+      "doi": "10.33545/surgery.2025.v9.i1.A.1134",
+      "doiUrl": "https://doi.org/10.33545/surgery.2025.v9.i1.A.1134",
+      "category": "Chest Trauma"
+    },
+    {
+      "id": 7,
+      "title": "Impact of Lobar Resection Site on Postoperative Pulmonary Function in Non-Malignant Lung Disease.",
+      "journal": "Faridpur Medical College Journal",
+      "year": 2026,
+      "volume": "21(1):45–50",
+      "doi": "10.3329/fmcj.v21i1.87226",
+      "doiUrl": "https://doi.org/10.3329/fmcj.v21i1.87226",
+      "category": "Thoracic Surgery & Resection"
+    },
+    {
+      "id": 8,
+      "title": "Video-Assisted Thoracoscopic Pleural Biopsy: A Game Changer for Undiagnosed Pleural Effusions.",
+      "journal": "Faridpur Medical College Journal",
+      "year": 2026,
+      "volume": "21(1):12–16",
+      "doi": "10.3329/fmcj.v21i1.87220",
+      "doiUrl": "https://doi.org/10.3329/fmcj.v21i1.87220",
+      "category": "VATS & Pleural Diseases"
+    },
+    {
+      "id": 9,
+      "title": "Outcome of Prostaglandin E1 Therapy in Critical Lower Limb Ischemia.",
+      "journal": "Cureus",
+      "year": 2026,
+      "volume": "18(1)",
+      "doi": null,
+      "doiUrl": null,
+      "category": "Vascular & Ischemic Therapies"
+    },
+    {
+      "id": 10,
+      "title": "Peri-Operative Surgical Risk and Postoperative Outcomes in Patients With COPD Undergoing Abdominal Surgery: A Retrospective Observational Study.",
+      "journal": "Cureus",
+      "year": 2026,
+      "volume": null,
+      "doi": "10.7759/cureus.105280",
+      "doiUrl": "https://doi.org/10.7759/cureus.105280",
+      "category": "COPD & Perioperative Care"
+    },
+    {
+      "id": 11,
+      "title": "Role of Oxygenation Saturation Index as a Predictor of Clinical Outcome of Acute Respiratory Distress Syndrome Patients in ICU.",
+      "journal": "Bangladesh Critical Care Journal",
+      "year": 2026,
+      "volume": "14(1)",
+      "doi": "10.3329/bccj.v14i1.88324",
+      "doiUrl": "https://doi.org/10.3329/bccj.v14i1.88324",
+      "category": "ARDS & Critical Care"
+    },
+    {
+      "id": 12,
+      "title": "Predicting Vasopressor Requirement in Sepsis: A Comparison Between Perfusion Index and Blood Lactate.",
+      "journal": "Bangladesh Critical Care Journal",
+      "year": 2026,
+      "volume": "14(1)",
+      "doi": "10.3329/bccj.v14i1.88321",
+      "doiUrl": "https://doi.org/10.3329/bccj.v14i1.88321",
+      "category": "Critical Care & Sepsis"
+    },
+    {
+      "id": 13,
+      "title": "Following Lobectomy: Pulmonary Function Changes and Surgical Complications.",
+      "journal": "Peer-reviewed medical publication",
+      "year": 2025,
+      "volume": "2:17–22",
+      "doi": null,
+      "doiUrl": null,
+      "category": "Thoracic Surgery"
+    }
+  ],
+  "memberships": [
+    {
+      "nameEn": "European Respiratory Society (ERS)",
+      "nameBn": "ইউরোপীয় রেসপিরেটরি সোসাইটি (ERS)",
+      "scopeEn": "International Respiratory Medicine",
+      "scopeBn": "আন্তর্জাতিক বক্ষব্যাধি বিজ্ঞান"
+    },
+    {
+      "nameEn": "European Association for Cardio-Thoracic Surgery (EACTS)",
+      "nameBn": "ইউরোপীয় অ্যাসোসিয়েশন ফর কার্ডিও-থোরাসিক সার্জারি (EACTS)",
+      "scopeEn": "Cardio-Thoracic Surgery",
+      "scopeBn": "কার্ডিও-থোরাসিক সার্জারি"
+    },
+    {
+      "nameEn": "British Thoracic Society (BTS)",
+      "nameBn": "ব্রিটিশ থোরাসিক সোসাইটি (BTS)",
+      "scopeEn": "Pulmonary & Thoracic Care (UK)",
+      "scopeBn": "বক্ষব্যাধি ও সার্জিক্যাল কেয়ার (যুক্তরাজ্য)"
+    },
+    {
+      "nameEn": "British Thoracic Oncology Group (BTOG)",
+      "nameBn": "ব্রিটিশ থোরাসিক অনকোলজি গ্রুপ (BTOG)",
+      "scopeEn": "Thoracic Oncology & Lung Cancer",
+      "scopeBn": "বক্ষ ক্যান্সার ও থোরাসিক অনকোলজি"
+    },
+    {
+      "nameEn": "American College of Physicians (ACP)",
+      "nameBn": "আমেরিকান কলেজ অব ফিজিশিয়ানস (ACP)",
+      "scopeEn": "Internal Medicine & Clinical Standards (USA)",
+      "scopeBn": "ইন্টারনাল মেডিসিন ও ক্লিনিক্যাল স্ট্যান্ডার্ড (যুক্তরাষ্ট্র)"
+    }
+  ],
+  "awards": [],
+  "testimonials": [],
+  "faqs": [
+    {
+      "id": "faq-1",
+      "questionEn": "How can I book an appointment with Dr. Rajeeebshankar Karmakar?",
+      "questionBn": "ডা. রাজীবশঙ্কর কর্মকারের অ্যাপয়েন্টমেন্ট কীভাবে নিতে পারি?",
+      "answerEn": "You can request an appointment easily by clicking the 'Book Appointment' button on this website to send a structured request via WhatsApp, or by directly calling the chamber serial number at 01944648809.",
+      "answerBn": "আপনি এই ওয়েবসাইটের 'অ্যাপয়েন্টমেন্ট নিন' বাটনে ক্লিক করে সরাসরি হোয়াটসঅ্যাপের মাধ্যমে আপনার পছন্দের তারিখ ও চেম্বার নির্বাচন করে বার্তা পাঠাতে পারেন, অথবা সরাসরি চেম্বার সিরিয়াল নম্বর ০১৯৪৪৬৪৮৮০৯-এ ফোন করতে পারেন।"
+    },
+    {
+      "id": "faq-2",
+      "questionEn": "Where does the doctor see patients?",
+      "questionBn": "ডাক্তার সাহেব কোথায় কোথায় রোগী দেখেন?",
+      "answerEn": "Dr. Karmakar visits patients at two designated chambers: Southern General Hospital in West Khabaspur, Faridpur (Thursdays 3:00 PM – 5:00 PM) and Probashi Hospital in Haoladar Tower, Tekerhat Bus Stand, Rajoir, Madaripur (Fridays 10:00 AM – 3:00 PM).",
+      "answerBn": "তিনি দুটি নিয়মিত চেম্বারে রোগী দেখেন: ১) সাউদার্ন জেনারেল হাসপাতাল, পশ্চিম খাবাসপুর, ফরিদপুর (প্রতি বৃহস্পতিবার বিকেল ৩:০০ – ৫:০০ টা) এবং ২) প্রবাসী হাসপাতাল, হাওলাদার টাওয়ার, টেকেরহাট বাস স্ট্যান্ড, রাজৈর, মাদারীপুর (প্রতি শুক্রবার সকাল ১০:০০ – দুপুর ৩:০০ টা)।"
+    },
+    {
+      "id": "faq-3",
+      "questionEn": "What are the current visiting hours?",
+      "questionBn": "বর্তমান রোগী দেখার সময়সূচি কী?",
+      "answerEn": "Southern General Hospital (Faridpur): Thursday from 3:00 PM to 5:00 PM. Probashi Hospital (Tekerhat, Madaripur): Friday from 10:00 AM to 3:00 PM.",
+      "answerBn": "সাউদার্ন জেনারেল হাসপাতাল (ফরিদপুর): প্রতি বৃহস্পতিবার বিকেল ৩:০০ টা থেকে ৫:০০ টা পর্যন্ত। প্রবাসী হাসপাতাল (টেকেরহাট, মাদারীপুর): প্রতি শুক্রবার সকাল ১০:০০ টা থেকে দুপুর ৩:০০ টা পর্যন্ত।"
+    },
+    {
+      "id": "faq-4",
+      "questionEn": "How can I request an online consultation?",
+      "questionBn": "অনলাইন চিকিৎসা পরামর্শের জন্য কীভাবে যোগাযোগ করব?",
+      "answerEn": "You can message on WhatsApp at +8801944648809 with your medical query and reports. Please note that online consultation availability must be confirmed by the doctor or chamber assistant, and serious respiratory emergencies require immediate in-person hospital evaluation.",
+      "answerBn": "অনলাইন পরামর্শের জন্য হোয়াটসঅ্যাপ নম্বর +৮৮০১৯৪৪৬৪৮৮০৯-এ আপনার সমস্যা ও পূর্বের পরীক্ষার রিপোর্ট লিখে মেসেজ দিতে পারেন। সময় ও সুযোগ সাপেক্ষে পরামর্শের বিষয়টি নিশ্চিত করা হবে।"
+    },
+    {
+      "id": "faq-5",
+      "questionEn": "Which chest and respiratory conditions does the doctor manage?",
+      "questionBn": "কী কী ধরনের বুক ও ফুসফুসের রোগের চিকিৎসা দেওয়া হয়?",
+      "answerEn": "Dr. Karmakar treats chronic cough, bronchial asthma, COPD, pneumonia, tuberculosis sequelae, coughing up blood (hemoptysis), chest pain, pleural effusion (fluid in chest), empyema (pus in chest), lung nodules and tumors, chest trauma, pneumothorax, and oesophageal disorders.",
+      "answerBn": "দীর্ঘদিনের কাশি, শ্বাসকষ্ট, হাঁপানি (অ্যাজমা), সিওপিডি, নিউমোনিয়া, যক্ষ্মা ও যক্ষ্মাপরবর্তী ফুসফুসের ক্ষত, কাশির সাথে রক্ত পড়া, বুকে পানি বা পুঁজ জমা, ফুসফুসের টিউমার, বুকের আঘাত ও খাদ্যনালীর জটিল রোগসমূহের আধুনিক চিকিৎসা প্রদান করা হয়।"
+    },
+    {
+      "id": "faq-6",
+      "questionEn": "What information and documents should I bring to my appointment?",
+      "questionBn": "চেম্বারে সাক্ষাতের সময় কী কী কাগজপত্র সাথে আনা প্রয়োজন?",
+      "answerEn": "Please bring all previous chest X-rays, CT scan films and reports, sputum test results, spirometry (lung function) reports, blood tests, biopsy reports, and a list of all your current prescription medicines.",
+      "answerBn": "রোগীর পূর্বের বুকের এক্স-রে, সিটি স্ক্যানের ফিল্ম ও রিপোর্ট, কফ পরীক্ষার ফলাফল, স্পাইরোমেট্রি (ফুসফুসের পরীক্ষা) রিপোর্ট, বায়োপসি রিপোর্ট এবং বর্তমানে সেবনরত সকল ওষুধের প্রেসক্রিপশন সাথে আনা জরুরি।"
+    },
+    {
+      "id": "faq-7",
+      "questionEn": "Can I contact the doctor through WhatsApp?",
+      "questionBn": "ডাক্তারের সাথে কি হোয়াটসঅ্যাপে যোগাযোগ করা যাবে?",
+      "answerEn": "Yes, you can reach out via WhatsApp at +8801944648809 for chamber inquiries, appointment serial coordination, or report follow-up.",
+      "answerBn": "হ্যাঁ, সিরিয়াল সংক্রান্ত তথ্য, চেম্বার অনুসন্ধান ও জরুরি পরামর্শের জন্য +৮৮০১৯৪৪৬৪৮৮০৯ নম্বরে হোয়াটসঅ্যাপে মেসেজ পাঠানো যাবে।"
+    },
+    {
+      "id": "faq-8",
+      "questionEn": "Is online appointment availability guaranteed immediately?",
+      "questionBn": "অনলাইন অ্যাপয়েন্টমেন্টের সময় কি তাৎক্ষণিকভাবে চূড়ান্ত হয়?",
+      "answerEn": "Submitting the form generates a pre-formatted appointment request to WhatsApp. The serial and slot are confirmed once the doctor's chamber assistant verifies the schedule and communicates back with you.",
+      "answerBn": "ওয়েবসাইট থেকে আবেদন করার পর অনুরোধটি হোয়াটসঅ্যাপে প্রেরিত হয়। চেম্বার সহকারী বা ডাক্তার শিডিউল যাচাই করে সিরিয়াল নিশ্চিত করলেই সময় চূড়ান্ত হবে।"
+    }
+  ],
+  "emergencyNotice": {
+    "titleEn": "Medical Emergency Notice",
+    "titleBn": "জরুরি সতর্কতা",
+    "messageEn": "If you or a patient are experiencing severe sudden breathing difficulty, massive hemoptysis (large volume blood coughing), bluish lips, or acute crushing chest pain, please immediately go to the nearest hospital emergency department rather than waiting for an online appointment.",
+    "messageBn": "যদি আপনার বা রোগীর হঠাৎ তীব্র শ্বাসকষ্ট, প্রচুর রক্তবমি বা কাশির সাথে বেশি রক্ত পড়া, ঠোঁট বা আঙুল নীল হওয়া অথবা তীব্র বুকে ব্যথা দেখা দেয়, তবে কালবিলম্ব না করে অবিলম্বে নিকটস্থ হাসপাতালের জরুরি বিভাগে যোগাযোগ করুন।"
+  }
+}

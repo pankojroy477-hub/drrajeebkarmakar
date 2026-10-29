@@ -1,0 +1,237 @@
+<!-- ==========================================
+     PAGE HEADER / BREADCRUMB
+     ========================================== -->
+<div class="bg-[#071B49] text-white py-12 border-b border-white/10">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center gap-2 text-xs text-[#25C5E8] mb-3">
+      <a href="/" class="hover:underline">Home / মূলপাতা</a>
+      <span>/</span>
+      <span class="text-white">About Doctor / পরিচিতি</span>
+    </div>
+    <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight">
+      <span class="lang-text" data-en="About Dr. Rajeeebshankar Karmakar" data-bn="ডা. রাজীবশঙ্কর কর্মকার — পূর্ণ পরিচিতি">ডা. রাজীবশঙ্কর কর্মকার — পূর্ণ পরিচিতি</span>
+    </h1>
+    <p class="text-sm sm:text-base text-white/80 mt-2 max-w-3xl">
+      <span class="lang-text" 
+        data-en="Assistant Professor of Thoracic Surgery, Consultant Thoracic & Oesophageal Surgeon, and Chest Specialist at Faridpur Medical College Hospital." 
+        data-bn="সহকারী অধ্যাপক (থোরাসিক সার্জারি), কনসালটেন্ট থোরাসিক ও খাদ্যনালী সার্জন, এবং বক্ষব্যাধি বিশেষজ্ঞ।">
+        সহকারী অধ্যাপক (থোরাসিক সার্জারি), কনসালটেন্ট থোরাসিক ও খাদ্যনালী সার্জন, এবং বক্ষব্যাধি বিশেষজ্ঞ।
+      </span>
+    </p>
+  </div>
+</div>
+
+<!-- ==========================================
+     DOCTOR BIOGRAPHY & PROFILE
+     ========================================== -->
+<section class="py-16 bg-white border-b border-[#E2E8F0]">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+      
+      <!-- Doctor Portrait Card -->
+      <div class="lg:col-span-4">
+        <div class="doctor-portrait-card sticky top-28">
+          <div class="doctor-portrait-inner aspect-[4/5] w-full">
+            <img 
+              src="/images/doctor/doctor-portrait.svg" 
+              alt="Dr. Rajeeebshankar Karmakar" 
+              class="w-full h-full object-cover object-top"
+            />
+          </div>
+
+          <div class="mt-4 p-4 rounded-2xl bg-white/10 border border-white/10 space-y-2 text-xs text-white">
+            <div class="flex items-center justify-between">
+              <span class="text-white/70">BMDC Registration:</span>
+              <span class="font-bold text-[#25C5E8]">A-61665</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span class="text-white/70">Experience:</span>
+              <span class="font-bold text-white">12+ Years</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span class="text-white/70">Languages:</span>
+              <span class="font-bold text-white">Bengali, English, Hindi</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Biography Narrative -->
+      <div class="lg:col-span-8 space-y-8">
+        <div>
+          <span class="text-[#1677D2] text-xs font-bold uppercase tracking-widest px-3 py-1 bg-blue-50 rounded-full border border-blue-100">
+            <span class="lang-text" data-en="Professional Background" data-bn="পেশাগত পটভূমি">পেশাগত পটভূমি</span>
+          </span>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-[#071B49] mt-3">
+            <span class="lang-text" data-en="Dedicated to Excellence in Thoracic Surgery & Chest Care" data-bn="বক্ষ সার্জারি ও ফুসফুসের চিকিৎসায় আন্তর্জাতিক মান">বক্ষ সার্জারি ও ফুসফুসের চিকিৎসায় আন্তর্জাতিক মান</span>
+          </h2>
+        </div>
+
+        <div class="prose max-w-none text-[#15233F]/90 text-sm sm:text-base leading-relaxed space-y-4">
+          <p class="lang-text" data-en="<%= doctor.bioFullEn %>" data-bn="<%= doctor.bioFullBn %>">
+            <%= doctor.bioFullBn %>
+          </p>
+        </div>
+
+        <!-- Key Competency Points -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
+          <div class="p-4 rounded-xl bg-[#F8FAFC] border border-[#E2E8F0]">
+            <h4 class="font-bold text-[#071B49] text-sm mb-1 flex items-center gap-2">
+              <svg class="w-4 h-4 text-[#1677D2]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+              <span class="lang-text" data-en="Specialized Surgical Training" data-bn="বিশেষায়িত সার্জিক্যাল প্রশিক্ষণ">বিশেষায়িত সার্জিক্যাল প্রশিক্ষণ</span>
+            </h4>
+            <p class="text-xs text-[#5A6A85]">
+              <span class="lang-text" data-en="MS in Thoracic Surgery from the premier National Institute of Diseases of the Chest & Hospital (NIDCH)." data-bn="জাতীয় বক্ষব্যাধি ইনস্টিটিউট ও হাসপাতাল (NIDCH) থেকে থোরাসিক সার্জারিতে মাস্টার অব সার্জারি (MS)।">জাতীয় বক্ষব্যাধি ইনস্টিটিউট ও হাসপাতাল (NIDCH) থেকে থোরাসিক সার্জারিতে মাস্টার অব সার্জারি (MS)।</span>
+            </p>
+          </div>
+
+          <div class="p-4 rounded-xl bg-[#F8FAFC] border border-[#E2E8F0]">
+            <h4 class="font-bold text-[#071B49] text-sm mb-1 flex items-center gap-2">
+              <svg class="w-4 h-4 text-[#1677D2]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+              <span class="lang-text" data-en="Royal Colleges Credentials" data-bn="যুক্তরাজ্য ও আয়ারল্যান্ড রয়্যাল কলেজ">যুক্তরাজ্য ও আয়ারল্যান্ড রয়্যাল কলেজ</span>
+            </h4>
+            <p class="text-xs text-[#5A6A85]">
+              <span class="lang-text" data-en="Holds MRCSI (Ireland), MRCSEd (Edinburgh), and Fellowship of the International College of Surgeons (FICS)." data-bn="রয়্যাল কলেজ অব সার্জনস ইন আয়ারল্যান্ড (MRCSI), এডিনবরা (MRCSEd) এবং FICS ফেলোশিপপ্রাপ্ত।">রয়্যাল কলেজ অব সার্জনস ইন আয়ারল্যান্ড (MRCSI), এডিনবরা (MRCSEd) এবং FICS ফেলোশিপপ্রাপ্ত।</span>
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================
+     ACADEMIC QUALIFICATIONS
+     ========================================== -->
+<section class="py-16 bg-[#FAFCFF] border-b border-[#E2E8F0]" aria-labelledby="qualifications-heading">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+    <div class="text-center max-w-3xl mx-auto mb-12">
+      <span class="text-[#1677D2] text-xs font-bold uppercase tracking-widest px-3 py-1 bg-blue-50 rounded-full border border-blue-100">
+        <span class="lang-text" data-en="Academic Background" data-bn="শিক্ষাগত যোগ্যতা">শিক্ষাগত যোগ্যতা</span>
+      </span>
+      <h2 id="qualifications-heading" class="text-2xl sm:text-3xl font-extrabold text-[#071B49] mt-3">
+        <span class="lang-text" data-en="Degrees, Diplomas & International Fellowships" data-bn="ডিগ্রি, ফেলোশিপ ও আন্তর্জাতিক মেম্বারশিপ">ডিগ্রি, ফেলোশিপ ও আন্তর্জাতিক মেম্বারশিপ</span>
+      </h2>
+      <p class="text-sm text-[#5A6A85] mt-2">
+        <span class="lang-text" data-en="Rigorous postgraduate surgical education and Royal Colleges qualifications verified from official CV." data-bn="অফিসিয়াল সিভি হতে সংগৃহীত নির্ভুল একাডেমিক ডিগ্রি ও আন্তর্জাতিক মেডিকেল স্বীকৃতি।">অফিসিয়াল সিভি হতে সংগৃহীত নির্ভুল একাডেমিক ডিগ্রি ও আন্তর্জাতিক মেডিকেল স্বীকৃতি।</span>
+      </p>
+    </div>
+
+    <!-- Qualifications Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <% qualifications.forEach((q) => { %>
+        <div class="med-card flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="px-2.5 py-1 rounded-md bg-[#1677D2]/10 text-[#1677D2] font-black text-xs tracking-wider">
+                <span class="lang-text" data-en="<%= q.degreeEn %>" data-bn="<%= q.degreeBn %>"><%= q.degreeBn %></span>
+              </span>
+              <span class="text-xs font-bold text-[#5A6A85]"><%= q.year %></span>
+            </div>
+            
+            <h3 class="font-bold text-base text-[#071B49] mb-2 leading-snug">
+              <span class="lang-text" data-en="<%= q.titleEn %>" data-bn="<%= q.titleBn %>"><%= q.titleBn %></span>
+            </h3>
+
+            <p class="text-xs sm:text-sm text-[#5A6A85] leading-relaxed">
+              <span class="lang-text" data-en="<%= q.institutionEn %>" data-bn="<%= q.institutionBn %>"><%= q.institutionBn %></span>
+            </p>
+          </div>
+        </div>
+      <% }); %>
+    </div>
+
+  </div>
+</section>
+
+<!-- ==========================================
+     CAREER EXPERIENCE TIMELINE
+     ========================================== -->
+<section class="py-16 bg-white border-b border-[#E2E8F0]" aria-labelledby="experience-heading">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+    <div class="text-center max-w-2xl mx-auto mb-12">
+      <span class="text-[#13A89E] text-xs font-bold uppercase tracking-widest px-3 py-1 bg-teal-50 rounded-full border border-teal-100">
+        <span class="lang-text" data-en="Clinical Journey" data-bn="কর্মজীবন ও অভিজ্ঞতা">কর্মজীবন ও অভিজ্ঞতা</span>
+      </span>
+      <h2 id="experience-heading" class="text-2xl sm:text-3xl font-extrabold text-[#071B49] mt-3">
+        <span class="lang-text" data-en="Career Experience Timeline" data-bn="পেশাগত কর্মজীবনের ধারাবাহিকতা">পেশাগত কর্মজীবনের ধারাবাহিকতা</span>
+      </h2>
+      <p class="text-sm text-[#5A6A85] mt-2">
+        <span class="lang-text" data-en="Over a decade of public healthcare service, surgical training, and clinical leadership." data-bn="এক দশকেরও বেশি সময় ধরে সরকারি হাসপাতাল ও শীর্ষ বক্ষ সার্জারি বিভাগে দায়িত্ব পালন।">এক দশকেরও বেশি সময় ধরে সরকারি হাসপাতাল ও শীর্ষ বক্ষ সার্জারি বিভাগে দায়িত্ব পালন।</span>
+      </p>
+    </div>
+
+    <!-- Timeline Track -->
+    <div class="timeline-track">
+      <% experience.forEach((exp) => { %>
+        <div class="timeline-node">
+          <div class="med-card p-5 sm:p-6">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-2">
+              <h3 class="font-bold text-lg text-[#071B49]">
+                <span class="lang-text" data-en="<%= exp.roleEn %>" data-bn="<%= exp.roleBn %>"><%= exp.roleBn %></span>
+              </h3>
+              <span class="inline-block px-2.5 py-0.5 rounded-full bg-blue-50 text-[#1677D2] font-semibold text-xs self-start sm:self-auto">
+                <%= exp.period %>
+              </span>
+            </div>
+
+            <p class="text-sm font-medium text-[#1677D2] mb-2">
+              <span class="lang-text" data-en="<%= exp.organizationEn %>" data-bn="<%= exp.organizationBn %>"><%= exp.organizationBn %></span>
+            </p>
+
+            <p class="text-xs sm:text-sm text-[#5A6A85] leading-relaxed">
+              <span class="lang-text" data-en="<%= exp.descriptionEn %>" data-bn="<%= exp.descriptionBn %>"><%= exp.descriptionBn %></span>
+            </p>
+          </div>
+        </div>
+      <% }); %>
+    </div>
+
+  </div>
+</section>
+
+<!-- ==========================================
+     PROFESSIONAL MEMBERSHIPS
+     ========================================== -->
+<section class="py-16 bg-[#FAFCFF]">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+    <div class="text-center max-w-2xl mx-auto mb-10">
+      <span class="text-[#1677D2] text-xs font-bold uppercase tracking-widest px-3 py-1 bg-blue-50 rounded-full border border-blue-100">
+        <span class="lang-text" data-en="Global Affiliations" data-bn="পেশাগত সদস্যপদ">পেশাগত সদস্যপদ</span>
+      </span>
+      <h2 class="text-2xl sm:text-3xl font-extrabold text-[#071B49] mt-3">
+        <span class="lang-text" data-en="Professional Society Memberships" data-bn="আন্তর্জাতিক চিকিৎসা সংস্থা ও সোসাইটি">আন্তর্জাতিক চিকিৎসা সংস্থা ও সোসাইটি</span>
+      </h2>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      <% memberships.forEach((mem) => { %>
+        <div class="med-card p-5 flex items-start gap-4">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-[#1677D2]/15 to-[#25C5E8]/15 text-[#1677D2] flex items-center justify-center flex-shrink-0">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/>
+            </svg>
+          </div>
+          <div>
+            <h4 class="font-bold text-sm text-[#071B49] leading-snug">
+              <span class="lang-text" data-en="<%= mem.nameEn %>" data-bn="<%= mem.nameBn %>"><%= mem.nameBn %></span>
+            </h4>
+            <p class="text-xs text-[#5A6A85] mt-1">
+              <span class="lang-text" data-en="<%= mem.scopeEn %>" data-bn="<%= mem.scopeBn %>"><%= mem.scopeBn %></span>
+            </p>
+          </div>
+        </div>
+      <% }); %>
+    </div>
+
+  </div>
+</section>

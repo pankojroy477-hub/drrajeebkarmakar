@@ -1,0 +1,1306 @@
+# PRODUCTION MASTER PROMPT — DRRAJEEBKARMAKAR.COM
+
+You are a senior full-stack Node.js developer, premium UI/UX designer, motion graphics engineer, technical SEO specialist, accessibility engineer, and medical website architect.
+
+Your task is to BUILD a complete, polished, production-ready bilingual medical portfolio website for:
+
+**Dr. Rajeeebshankar Karmakar**  
+Website: https://drrajeebkarmakar.com
+
+This is a real professional doctor website, not a generic template, mockup, or static design concept.
+
+Generate the actual application code and all necessary project files in the available development workspace. Do not merely explain what needs to be built.
+
+The website must be visually exceptional, medically professional, fast, secure, accessible, mobile-friendly, easy to customize, and deployable on supported Node.js hosting, including cPanel.
+
+---
+
+# 1. PROJECT OBJECTIVES
+
+Build a premium personal medical website that helps visitors:
+
+- Understand the doctor's qualifications and expertise.
+- Learn about thoracic and oesophageal surgery.
+- Explore the conditions he treats.
+- View professional experience and academic qualifications.
+- Browse research publications.
+- Find chamber locations and visiting hours.
+- Call for appointments.
+- Contact the doctor through WhatsApp.
+- Request an online consultation.
+- Switch between Bengali and English.
+
+The website should feel like a professionally commissioned international medical brand website.
+
+Do not make it look like a cheap hospital template, generic AI landing page, or simple collection of cards.
+
+Prioritize trust, visual storytelling, clarity, mobile experience, and patient convenience.
+
+# 2. TECHNOLOGY STACK
+
+Use the following stack:
+
+Backend:
+- Node.js 20 or another compatible supported LTS version.
+- Express.js.
+- EJS templates.
+- MVC-style routing and controllers.
+
+Frontend:
+- Semantic HTML5.
+- Responsive CSS3.
+- Tailwind CSS if it can be built reliably for deployment; otherwise use clean, well-structured custom CSS.
+- Vanilla JavaScript.
+- GSAP and ScrollTrigger for advanced animation.
+- Lucide icons or equivalent lightweight icons.
+
+Other requirements:
+- dotenv.
+- Helmet.
+- Express rate limiting.
+- Express validation and safe input handling.
+- Compression where appropriate.
+- Responsive image handling.
+
+Do not use React or require a separate frontend application unless there is a compelling technical reason.
+
+Prefer a single Node.js application that is easy to deploy.
+
+Avoid unnecessary dependencies, oversized bundles, complicated build systems, and external services that require paid subscriptions.
+
+Use production-compatible local assets wherever practical.
+
+# 3. BRAND IDENTITY
+
+Domain:
+https://drrajeebkarmakar.com
+
+Doctor's English name:
+Dr. Rajeeebshankar Karmakar
+
+Display name based on the supplied CV:
+Dr. Rajeeebshankar Karmakar
+
+Bengali display name:
+ডা. রাজীবশঙ্কর কর্মকার
+
+Primary professional designation:
+Assistant Professor (Thoracic Surgery)
+
+Additional professional designation:
+Consultant, Thoracic & Oesophageal Surgeon
+
+Specialty:
+Chest Specialist & Surgical Pulmonologist
+
+Brand tagline:
+"Expert Care for Healthy Lungs & Better Life"
+
+Bengali tagline:
+"সুস্থ ফুসফুস, স্বস্তির নিঃশ্বাস, উন্নত জীবন"
+
+Use the Bengali tagline as an editable marketing copy suggestion.
+
+Brand personality:
+- Professional
+- Trustworthy
+- Scientific
+- Compassionate
+- Modern
+- Patient-focused
+- Internationally presentable
+
+# 4. VISUAL DESIGN DIRECTION
+
+Create a distinctive premium medical visual identity.
+
+Color palette:
+- Deep navy: #071B49
+- Medical blue: #1677D2
+- Cyan accent: #25C5E8
+- Teal accent: #13A89E
+- Warm white: #FAFCFF
+- Light medical gray: #F1F5FA
+- Dark text: #15233F
+
+Use CSS variables for all theme colors.
+
+Typography:
+- English: Inter or Manrope.
+- Bengali: Hind Siliguri or Noto Sans Bengali.
+- Use properly licensed fonts and reliable loading fallbacks.
+
+Design principles:
+- Large, elegant typography.
+- Excellent whitespace.
+- Editorial layouts.
+- Subtle borders.
+- Refined glass effects where appropriate.
+- Soft gradients.
+- Carefully controlled shadows.
+- Premium medical illustrations.
+- Elegant image framing.
+- Strong visual hierarchy.
+- Distinctive section transitions.
+- Consistent spacing.
+
+Create an original combination of medical professionalism, modern editorial design, and sophisticated motion.
+
+Do not use:
+- Excessive blue gradients.
+- Neon overload.
+- Cartoon medical graphics.
+- Generic stock photographs of unrelated doctors.
+- Fake award badges.
+- Fake hospital logos.
+- Random animated particles everywhere.
+- Repetitive card layouts in every section.
+- Aggressive animations that reduce readability.
+
+# 5. ANIMATION REQUIREMENTS
+
+Animation is a major part of the visual identity.
+
+Use GSAP and ScrollTrigger intelligently.
+
+Implement:
+- Elegant page-load introduction.
+- Navbar entrance.
+- Hero headline reveal.
+- Staggered text animation.
+- Doctor portrait reveal.
+- Subtle image parallax.
+- Scroll-triggered section reveals.
+- Animated statistics for verified figures only.
+- Timeline progression animations.
+- Subtle specialization-card hover interactions.
+- Publication-list reveal.
+- Chamber-card transitions.
+- Button micro-interactions.
+- Animated mobile navigation.
+- FAQ accordion transitions.
+- Scroll progress indicator.
+- Back-to-top animation.
+- Reduced-motion support.
+
+Animation rules:
+- Keep critical content immediately available.
+- Do not hide the entire website behind a long loading animation.
+- Avoid layout shifts.
+- Do not animate every element independently.
+- Do not delay access to appointment information.
+- Honor `prefers-reduced-motion`.
+- Provide non-animated fallbacks if GSAP fails to load.
+
+The site must remain usable without animation libraries.
+
+# 6. RESPONSIVE DESIGN
+
+Design mobile-first.
+
+Test and optimize for:
+- 320px.
+- 360px.
+- 375px.
+- 390px.
+- 414px.
+- Tablet.
+- Laptop.
+- Desktop.
+- Large desktop.
+
+Requirements:
+- No horizontal scrolling.
+- No overlapping navigation.
+- No cropped important text.
+- No overflowing Bengali headings.
+- No distorted portrait.
+- Readable appointment details.
+- Accessible buttons and inputs.
+- Fully usable touch targets.
+- Responsive publication cards.
+- Responsive chamber information.
+
+On mobile, display a convenient sticky bottom action bar with:
+
+1. Call
+2. WhatsApp
+3. Appointment
+
+The sticky bar must not cover form fields, page content, or footer links.
+
+# 7. BILINGUAL LANGUAGE SYSTEM
+
+The website must support both Bengali and English.
+
+Create a real language toggle:
+
+বাংলা | English
+
+Default language:
+Bengali.
+
+Remember the user's selected language using localStorage.
+
+Translate all major interface elements, including:
+- Navigation.
+- Hero.
+- Profile.
+- Qualifications.
+- Specializations.
+- Procedures.
+- Chamber details.
+- Visiting hours.
+- Appointment form.
+- Contact information.
+- FAQ.
+- Buttons.
+- Validation messages.
+- Success messages.
+- Footer.
+- Privacy policy.
+- Error messages.
+
+Keep research paper titles in their original published language.
+
+Store editable translations centrally instead of duplicating entire templates.
+
+Do not translate medical credentials inaccurately.
+
+Use proper Bengali typography and Unicode. Do not use image-based text for essential content.
+
+# 8. VERIFIED DOCTOR PROFILE
+
+Use the following supplied information.
+
+Name:
+Dr. Rajeeebshankar Karmakar
+
+Bengali name:
+ডা. রাজীবশঙ্কর কর্মকার
+
+Designation:
+Assistant Professor (Thoracic Surgery)
+
+Additional designation:
+Consultant, Thoracic & Oesophageal Surgeon
+
+Professional description:
+Chest Specialist & Surgical Pulmonologist
+
+Experience:
+12+ years, based on the information supplied by the doctor/website owner.
+
+Current workplace:
+Faridpur Medical College Hospital, Faridpur, Bangladesh.
+
+Department:
+Thoracic Surgery.
+
+BMDC registration number:
+A-61665.
+
+Languages:
+Bengali, English, Hindi.
+
+Create a professional, readable biography based on the supplied CV.
+
+The biography should explain the doctor's clinical background, thoracic surgery experience, respiratory and chest disease management, surgical training, and academic work.
+
+Do not copy career objectives from the CV that refer to seeking employment abroad.
+
+Do not invent a medical philosophy, personal history, or claims about patient outcomes.
+
+# 9. EDUCATION AND QUALIFICATIONS
+
+Create a professional education and qualifications section.
+
+Use these details from the supplied CV:
+
+1. Bachelor of Medicine and Bachelor of Surgery (MBBS)
+   Faridpur Medical College, Faridpur, Bangladesh.
+   Year: 2012.
+
+2. Professional Master's in Speech and Language Pathology (MS)
+   University of Dhaka, Bangladesh.
+   Year: 2016.
+
+3. Master of Surgery (MS), Thoracic Surgery
+   National Institute of Diseases of the Chest and Hospital (NIDCH), under Bangladesh Medical University, formerly Bangabandhu Sheikh Mujib Medical University.
+   Dhaka, Bangladesh.
+   Year: 2024.
+
+4. Membership of the Royal College of Surgeons in Ireland (MRCSI).
+   Year: 2025.
+
+5. Membership of the Royal College of Surgeons of Edinburgh (MRCSEd).
+   Year: 2026.
+
+6. Fellow, International College of Surgeons (FICS).
+   Year: 2026.
+
+Treat BCS Health Cadre service as professional career experience, not as an academic medical degree.
+
+Display credentials consistently.
+
+IMPORTANT:
+The supplied promotional artwork contains additional abbreviations. Do not automatically interpret ambiguous abbreviations or promote them into verified academic qualifications. In particular, keep MACP and MERS hidden until their exact official titles and status are confirmed.
+
+Never fabricate qualification dates.
+
+# 10. CAREER EXPERIENCE TIMELINE
+
+Create an elegant, animated professional career timeline.
+
+Use these CV entries:
+
+1. Assistant Surgeon — Bangladesh Civil Service Health Cadre, 33rd BCS.
+   Union and Upazila-level hospitals, Bangladesh.
+   2014–2021.
+
+2. Indoor Medical Officer — Therapeutic Pulmonology.
+   500-Bed Kurmitola General Hospital, Dhaka Cantonment, Dhaka.
+   2017–2018.
+
+3. Assistant Registrar — Department of Casualty.
+   Sir Salimullah Medical College and Mitford Hospital, Dhaka.
+   2020–2021.
+
+4. Resident Surgeon — Discipline of Thoracic Surgery.
+   Mugda Medical College and Hospital, Dhaka.
+   2021–2026.
+
+5. Assistant Professor — Thoracic Surgery.
+   Faridpur Medical College Hospital, Faridpur.
+   2026–Present.
+
+The CV contains overlapping employment periods. Preserve the supplied dates and do not invent explanations for those overlaps.
+
+Use concise descriptions derived from the CV.
+
+On mobile, the timeline must be vertical and easy to read.
+
+# 11. MEDICAL EXPERTISE
+
+Create a dedicated specialty section for the following conditions and clinical areas:
+
+- Persistent or recurrent cough.
+- Shortness of breath.
+- Asthma.
+- Chronic obstructive pulmonary disease (COPD).
+- Pneumonia.
+- Tuberculosis.
+- Chest pain.
+- Coughing up blood.
+- Pleural effusion.
+- Empyema.
+- Lung nodules and tumors.
+- Lung and chest diseases.
+- Oesophageal diseases.
+- Thoracic surgical conditions.
+- Chest trauma.
+- Pneumothorax.
+
+Create accessible Bengali and English descriptions.
+
+Each item should include:
+- Specialty or condition name.
+- Brief, patient-friendly description.
+- Relevant icon.
+- Optional link to a fuller explanation.
+
+Do not make definitive diagnostic or treatment claims through marketing copy.
+
+Do not tell users that every cough or respiratory symptom requires surgery.
+
+Include a clear emergency notice advising patients with severe breathing difficulty, major bleeding, or other potentially life-threatening symptoms to seek emergency care rather than waiting for an online appointment.
+
+# 12. SURGICAL AND CLINICAL PROCEDURES
+
+Create a professional clinical expertise section based on the supplied CV.
+
+Include the following procedures and clinical skills:
+
+- Open thoracotomy.
+- Lobectomy.
+- Pneumonectomy.
+- Decortication.
+- Ivor Lewis oesophagectomy.
+- Oesophageal surgery for benign and malignant diseases.
+- Video-assisted thoracoscopic surgery (VATS).
+- Pleural biopsy.
+- Tube thoracostomy and chest drain insertion.
+- Pleuroscopy.
+- Flexible bronchoscopy.
+- Rigid bronchoscopy.
+- Flexible and rigid endoscopy.
+- Management of pneumothorax.
+- Management of pleural effusion.
+- Blunt and penetrating chest trauma management.
+- ATLS-guided trauma management.
+- Critical and peri-operative care, including care involving COPD and high-risk surgical patients.
+- Management of selected foreign bodies in the oral cavity, oesophagus, stomach, and airway.
+- Management of corrosive strictures, burns, and shock as documented in the CV.
+
+Organize the information into user-friendly categories.
+
+Add a short disclaimer that procedures are offered only when clinically appropriate following medical evaluation.
+
+Do not imply that every procedure is performed at every chamber.
+
+Do not invent procedure volumes, outcomes, or success rates.
+
+# 13. CHAMBER AND VISITING INFORMATION
+
+Build a visually prominent section titled:
+
+English: Chambers & Visiting Hours
+Bengali: চেম্বার ও রোগী দেখার সময়সূচি
+
+Create two separate chamber records.
+
+CHAMBER 1
+
+Hospital:
+Southern General Hospital
+
+Location:
+West Khabaspur, near Faridpur Medical College Hospital, Faridpur-7800, Bangladesh.
+
+Visiting day:
+Thursday.
+
+Visiting time:
+3:00 PM–5:00 PM.
+
+Appointment phone:
+01944648809.
+
+CHAMBER 2
+
+Hospital:
+প্রবাসী হাসপাতাল
+
+Location:
+Haoladar Tower, Tekerhat Bus Stand, Rajoir, Madaripur, Bangladesh.
+
+Visiting day:
+Friday.
+
+Visiting time:
+10:00 AM–3:00 PM.
+
+Appointment phone:
+01944648809.
+
+Design requirements:
+- Separate, attractive chamber cards.
+- Clear day and time labels.
+- Address with proper line breaks.
+- Call button.
+- WhatsApp button.
+- Map and direction button.
+- Book/request appointment button.
+
+Do not invent opening hours for other days.
+
+Do not invent chamber fees, serial rules, room numbers, appointment availability, or emergency services.
+
+Store chamber information in the centralized doctor data file.
+
+If a map URL is not provided, do not fabricate precise coordinates. Provide a configurable Google Maps search link using the supplied chamber address, and document how the owner can replace it with an exact verified map link.
+
+Keep chamber records editable.
+
+Include an enable/disable field so a chamber can be hidden without deleting its data.
+
+# 14. ONLINE CONSULTATION
+
+Create a dedicated online consultation section.
+
+Heading:
+English: Online Consultation
+Bengali: অনলাইনে চিকিৎসা পরামর্শ
+
+Explain that patients can contact the doctor for information about online consultation and availability.
+
+WhatsApp number:
++8801944648809
+
+WhatsApp URL:
+https://wa.me/8801944648809
+
+Add:
+- WhatsApp Consultation button.
+- Appointment request button.
+- A short explanation of how to initiate contact.
+- A notice that consultation availability must be confirmed.
+
+Do not claim that video consultation is automatically booked or available 24/7.
+
+If no integrated video consultation service exists, do not invent a video room or consultation dashboard.
+
+# 15. CONTACT INFORMATION
+
+Use the following public contact details:
+
+Primary appointment phone:
+01944648809
+
+WhatsApp:
++8801944648809
+
+Email:
+rajeebfmc16@gmail.com
+
+Facebook:
+https://www.facebook.com/profile.php?id=61581763712798
+
+Website:
+https://drrajeebkarmakar.com
+
+Important privacy rule:
+The supplied CV contains a personal residential address and another phone number. Do not publish the residential address or the alternative CV phone number. Only use the contact information explicitly designated above as public-facing contact information.
+
+Create:
+- Contact section.
+- Click-to-call links using the correct telephone URI format.
+- WhatsApp links.
+- Email links.
+- Facebook link.
+- Appointment CTA.
+- Responsive contact layout.
+
+External links should use appropriate security attributes where relevant.
+
+# 16. APPOINTMENT REQUEST FUNCTIONALITY
+
+Create a working appointment request experience.
+
+Fields:
+- Patient name.
+- Phone number.
+- Preferred chamber.
+- Preferred date.
+- Preferred time.
+- Short reason for visit.
+- Optional message.
+
+Requirements:
+- Client-side validation.
+- Server-side validation.
+- Accessible error feedback.
+- Mobile-friendly form.
+- Loading state.
+- Prevent multiple rapid submissions.
+- Clear success and error messages.
+
+For the initial version, implement appointment submission through a pre-filled WhatsApp message.
+
+When the visitor submits:
+1. Validate the fields.
+2. Build a correctly URL-encoded WhatsApp message.
+3. Open WhatsApp using the configured number.
+4. Show a message explaining that the request is not confirmed until the doctor or authorized staff responds.
+
+Do not falsely say a booking has been stored, sent to the hospital database, or confirmed.
+
+Do not collect unnecessary medical history or highly sensitive health details in the form.
+
+If a database or server-side booking system is not configured, do not pretend one exists.
+
+Structure the appointment code so email notifications or database-backed booking can be added in a future version.
+
+Provide clear fallback behavior when WhatsApp is not available.
+
+# 17. RESEARCH AND PUBLICATIONS
+
+Create a professional Research & Publications section.
+
+Use the following publication records from the supplied CV.
+
+Preserve titles and supplied bibliographic information accurately. If a journal, date, author list, or DOI is missing or incomplete, do not invent it.
+
+Publication 1:
+"Evaluation of Late Postoperative Pulmonary Function Following Lobectomy in Patients with Tubercular and Non-tubercular Lung Diseases."
+Cureus. 2025;17(8):e89419.
+DOI: 10.7759/cureus.89419
+
+Publication 2:
+"Role of Perfusion Index as a Predictor of Vasopressor Requirement in Patients With Sepsis."
+DOI: 10.7759/cureus.100431
+
+Publication 3:
+"Spirometric Outcomes Following Lobectomy: A Non-Tuberculosis Perspective."
+Faridpur Medical College Journal. 2025;20(2):13–17.
+DOI: 10.3329/fmcj.v20i2.82988
+
+Publication 4:
+"Comparison of Postoperative Outcome Between Vertical Right Axillary Thoracotomy and Conventional Median Sternotomy for Atrial Septal Defect Closure in Paediatric Patients."
+The CV identifies this record as CC BY 4.0 but does not provide complete publication metadata.
+
+Publication 5:
+"Impact of Lobectomy on Pulmonary Function in Tubercular Patients: A Prospective Analysis."
+International Journal of Advances in Medicine. 2025;12(4):356–361.
+DOI: 10.18203/2349-3933.ijam20251931
+
+Publication 6:
+"Incidence, Associated Factors, and Outcomes Among Patients in Chest Trauma: Analysis of 60 Cases."
+International Journal of Surgery Science. 2025;9(1):10–15.
+DOI: 10.33545/surgery.2025.v9.i1.A.1134
+
+Publication 7:
+"Impact of Lobar Resection Site on Postoperative Pulmonary Function in Non-Malignant Lung Disease."
+Faridpur Medical College Journal. 2026;21(1):45–50.
+DOI: 10.3329/fmcj.v21i1.87226
+
+Publication 8:
+"Video-Assisted Thoracoscopic Pleural Biopsy: A Game Changer for Undiagnosed Pleural Effusions."
+Faridpur Medical College Journal. 2026;21(1):12–16.
+DOI: 10.3329/fmcj.v21i1.87220
+
+Publication 9:
+"Outcome of Prostaglandin E1 Therapy in Critical Lower Limb Ischemia."
+The CV lists Cureus, 2026;18(1), but provides an incomplete DOI: 10.7759/cureus
+
+Publication 10:
+"Peri-Operative Surgical Risk and Postoperative Outcomes in Patients With COPD Undergoing Abdominal Surgery: A Retrospective Observational Study."
+DOI: 10.7759/cureus.105280
+
+Publication 11:
+"Role of Oxygenation Saturation Index as a Predictor of Clinical Outcome of Acute Respiratory Distress Syndrome Patients in ICU."
+DOI: 10.3329/bccj.v14i1.88324
+
+Publication 12:
+"Predicting Vasopressor Requirement in Sepsis: A Comparison Between Perfusion Index and Blood Lactate."
+DOI: 10.3329/bccj.v14i1.88321
+
+Publication 13:
+"Following Lobectomy: Pulmonary Function Changes and Surgical Complications."
+The CV lists 2025;2:17–22.
+
+Publication section requirements:
+- Search/filter publications by keyword when useful.
+- Use accessible publication cards or a clean academic bibliography layout.
+- Display journal, year, and DOI only when the supplied details support them.
+- Add a "Read Publication" link only if a valid URL is explicitly available or has been reliably verified.
+- Never fabricate publication URLs.
+- Keep publication titles in English.
+- Make individual records easy to edit.
+- Do not label every record as independently verified.
+- Do not invent abstracts.
+
+# 18. PROFESSIONAL MEMBERSHIPS
+
+Use these memberships listed in the supplied CV:
+
+- European Respiratory Society (ERS).
+- European Association for Cardio-Thoracic Surgery (EACTS).
+- British Thoracic Society (BTS).
+- British Thoracic Oncology Group (BTOG).
+- American College of Physicians (ACP).
+
+Present the organizations clearly and professionally.
+
+Do not invent new memberships, current membership status, membership dates, or institutional endorsements.
+
+Do not display membership IDs unless explicitly enabled by the site owner.
+
+Do not confuse a membership with a fellowship or academic qualification.
+
+# 19. TRUST AND STATISTICS
+
+Build a refined statistics section using only supported information.
+
+Permitted examples:
+- 12+ Years of Experience.
+- 13 Publications Listed in CV.
+- 2 Listed Chamber Locations.
+
+The publication counter must reflect the thirteen records provided above; the label should not imply that all bibliographic details have been independently verified.
+
+Do NOT invent:
+- Total patients treated.
+- Total operations.
+- Total successful procedures.
+- Success rate.
+- Cure rate.
+- Patient satisfaction rate.
+- Number of awards.
+- Number of lives saved.
+- International rankings.
+
+If data is unavailable, keep its value empty and hide the related statistic automatically.
+
+The data schema should support adding verified statistics later without editing page templates.
+
+# 20. AWARDS AND TESTIMONIALS
+
+Create configurable sections for future content.
+
+Awards:
+- Section title.
+- Award name.
+- Awarding organization.
+- Year.
+- Certificate or image.
+- Optional explanation.
+
+Testimonials:
+- Review.
+- Approved display name or anonymous label.
+- Permission status.
+- Optional review date.
+
+Important:
+- Do not create fictional awards.
+- Do not generate fake patient reviews.
+- Do not use synthetic testimonials as though they are real.
+- Hide empty sections automatically.
+- Only show a testimonial when its content is supplied and authorized for publication.
+
+# 21. FAQ SECTION
+
+Create a bilingual, accessible FAQ accordion.
+
+Suggested questions:
+- How can I book an appointment?
+- Where does the doctor see patients?
+- What are the current visiting hours?
+- How can I request an online consultation?
+- Which chest and respiratory conditions does the doctor manage?
+- What information should I bring to my appointment?
+- Can I contact the doctor through WhatsApp?
+- Is online appointment availability guaranteed?
+
+Answers must reflect the actual website configuration.
+
+Do not claim emergency availability, 24-hour service, guaranteed appointment times, or specific consultation fees without confirmed information.
+
+# 22. HEADER AND NAVIGATION
+
+Create a sticky, animated header.
+
+Desktop navigation:
+- Home.
+- About Doctor.
+- Expertise.
+- Qualifications.
+- Chambers.
+- Publications.
+- FAQ.
+- Contact.
+- Language toggle.
+- Prominent Appointment button.
+
+Mobile navigation:
+- Accessible animated hamburger.
+- Proper open and close behavior.
+- Escape-key support.
+- Correct focus handling.
+- Scroll locking only when the menu is open and appropriate.
+- Language toggle.
+- Clearly visible appointment CTA.
+
+The navigation should scroll to the appropriate section or route.
+
+# 23. HERO SECTION
+
+Create a visually striking, premium hero.
+
+Left area:
+- Specialty label.
+- Doctor's name in English and Bengali.
+- Assistant Professor (Thoracic Surgery).
+- Consultant, Thoracic & Oesophageal Surgeon.
+- Short patient-friendly introduction.
+- Primary CTA: Book an Appointment.
+- Secondary CTA: Explore Expertise.
+- Small verified credential highlights.
+
+Right area:
+- Use the actual supplied doctor portrait.
+- Apply refined cropping and subtle visual treatment.
+- Create a custom medical lung/respiratory illustration.
+- Use original CSS/SVG artwork rather than unrelated stock imagery.
+- Introduce the doctor's portrait with a smooth but restrained animation.
+
+Use the supplied tagline:
+"Expert Care for Healthy Lungs & Better Life"
+
+The mobile hero must remain clear and compact.
+
+Do not put unsupported success rates or patient numbers in the hero.
+
+# 24. ABOUT AND PROFESSIONAL PROFILE
+
+Build a professionally written biography section.
+
+Include:
+- Professional overview.
+- Academic background.
+- Thoracic surgery specialization.
+- Respiratory and chest disease expertise.
+- Relevant professional experience.
+- Current academic role.
+- BMDC registration number.
+
+Include an expandable biography if necessary.
+
+Keep the copy factual and approachable for patients.
+
+# 25. OPTIONAL GALLERY
+
+Provide a configurable gallery section that remains hidden when no gallery items are available.
+
+Allow:
+- Professional photographs.
+- Hospital or departmental photographs.
+- Conferences.
+- Training.
+- Certificates, when provided.
+
+Use only supplied and authorized images.
+
+Provide accessible lightbox behavior, keyboard controls, and alternative text.
+
+Do not invent events, awards, or photographs.
+
+# 26. IMAGE ASSETS
+
+The actual doctor photographs supplied with this task should be used.
+
+Create clear asset paths, for example:
+
+public/images/doctor/doctor-main.jpg
+public/images/doctor/doctor-profile.jpg
+
+These names are examples; map them to the actual supplied filenames when the assets are available.
+
+Requirements:
+- Do not replace the doctor with an AI-generated person.
+- Do not use a different doctor's portrait.
+- Preserve the actual person's identity.
+- Use suitable object positioning and responsive sizing.
+- Provide meaningful alt text.
+- Use optimized image formats where possible.
+- Do not stretch images.
+- Provide a graceful placeholder if an image is missing.
+
+Create README instructions for replacing and optimizing images.
+
+# 27. FOOTER AND LEGAL INFORMATION
+
+Create a refined bilingual footer.
+
+Include:
+- Doctor name.
+- Professional designation.
+- Quick links.
+- Chamber links.
+- Phone.
+- WhatsApp.
+- Email.
+- Facebook.
+- Website.
+- Privacy policy link.
+- Copyright notice.
+
+Add an appropriate general medical information disclaimer.
+
+Create a basic privacy policy describing the actual behavior of the site and its WhatsApp-based appointment requests.
+
+Do not claim compliance certifications that have not been obtained.
+
+Do not claim that personal or medical data is stored securely in a database when no database has been configured.
+
+# 28. TECHNICAL SEO
+
+Configure the public website for:
+
+Canonical domain:
+https://drrajeebkarmakar.com
+
+Requirements:
+- Unique page titles.
+- Meta descriptions.
+- Canonical URLs.
+- Open Graph metadata.
+- Social sharing image.
+- Favicon.
+- Semantic heading hierarchy.
+- Descriptive image alt text.
+- robots.txt.
+- sitemap.xml.
+- Clean URL routing.
+- JSON-LD Physician structured data.
+- Correct language metadata.
+- Bengali and English content support.
+
+Use only factual credentials, contact information, and location information.
+
+Do not generate aggregate ratings or review counts for structured data without eligible real source data.
+
+Do not invent external verification links.
+
+Include the two chamber locations as separate records.
+
+Generate the sitemap from available public pages, not private routes.
+
+Ensure the website does not accidentally index administrative or diagnostic-looking placeholder pages.
+
+# 29. PERFORMANCE AND ACCESSIBILITY
+
+Performance:
+- Minimize JavaScript.
+- Optimize images.
+- Lazy-load below-the-fold images.
+- Avoid unnecessary animation work.
+- Reduce cumulative layout shifts.
+- Use responsive image dimensions.
+- Set reasonable caching headers.
+- Avoid render-blocking third-party scripts where practical.
+
+Accessibility:
+- Semantic HTML.
+- Keyboard support.
+- Visible focus indicators.
+- Correct form labels.
+- Good contrast.
+- ARIA only where appropriate.
+- Accessible modals and accordions.
+- Reduced-motion handling.
+- Useful error messages.
+- No color-only status indicators.
+
+# 30. SECURITY REQUIREMENTS
+
+Implement:
+- Helmet and an appropriate security-header configuration.
+- Server-side validation.
+- Rate limiting on form and relevant endpoints.
+- Safe error handling.
+- Environment-based configuration.
+- No exposed secrets.
+- No unsafe rendering of user input.
+- Protection against basic injection and abuse.
+- Appropriate caching behavior.
+
+If a Content Security Policy is used, configure it so required local and animation assets continue to function.
+
+Do not add a fake admin login or insecure admin dashboard.
+
+Do not include confidential reference-contact details from the supplied CV in the public site.
+
+# 31. CENTRALIZED EDITABLE DATA
+
+Create:
+
+data/doctor.json
+
+Use a structured, reusable configuration.
+
+Suggested properties:
+
+{
+  "site": {
+    "name": "Dr. Rajeeebshankar Karmakar",
+    "domain": "https://drrajeebkarmakar.com",
+    "defaultLanguage": "bn"
+  },
+  "doctor": {
+    "nameEn": "Dr. Rajeeebshankar Karmakar",
+    "nameBn": "ডা. রাজীবশঙ্কর কর্মকার",
+    "designation": "Assistant Professor (Thoracic Surgery)",
+    "additionalDesignation": "Consultant, Thoracic & Oesophageal Surgeon",
+    "specialty": "Chest Specialist & Surgical Pulmonologist",
+    "experienceYears": 12,
+    "bmdcRegistration": "A-61665",
+    "profileImage": "/images/doctor/doctor-main.jpg"
+  },
+  "contact": {
+    "appointmentPhone": "01944648809",
+    "whatsappNumber": "8801944648809",
+    "email": "rajeebfmc16@gmail.com",
+    "facebook": "https://www.facebook.com/profile.php?id=61581763712798"
+  },
+  "chambers": [],
+  "qualifications": [],
+  "experience": [],
+  "specialties": [],
+  "procedures": [],
+  "publications": [],
+  "memberships": [],
+  "awards": [],
+  "testimonials": [],
+  "faqs": []
+}
+
+Expand this structure to include all supplied information.
+
+Do not copy the example arrays as empty if complete source data is available.
+
+For every optional record, support an enabled/disabled flag.
+
+For missing information:
+- Use null or an empty value.
+- Hide the field or section when appropriate.
+- Do not show null, undefined, zero counters, empty cards, or unfinished text.
+
+Ensure EJS templates consume the data dynamically.
+
+Keep all changeable contact information, chamber hours, publications, and labels out of repeated hardcoded markup.
+
+# 32. REQUIRED PROJECT STRUCTURE
+
+Create a clean architecture similar to:
+
+doctor-website/
+├── app.js
+├── package.json
+├── .env.example
+├── README.md
+├── data/
+│   └── doctor.json
+├── routes/
+│   ├── indexRoutes.js
+│   ├── appointmentRoutes.js
+│   └── pageRoutes.js
+├── controllers/
+│   ├── homeController.js
+│   └── appointmentController.js
+├── middleware/
+│   └── errorHandler.js
+├── views/
+│   ├── layouts/
+│   │   └── main.ejs
+│   ├── partials/
+│   │   ├── navbar.ejs
+│   │   ├── footer.ejs
+│   │   ├── mobile-actions.ejs
+│   │   └── scripts.ejs
+│   ├── pages/
+│   │   ├── home.ejs
+│   │   ├── about.ejs
+│   │   ├── expertise.ejs
+│   │   ├── chambers.ejs
+│   │   ├── publications.ejs
+│   │   ├── contact.ejs
+│   │   └── privacy.ejs
+│   └── errors/
+│       ├── 404.ejs
+│       └── 500.ejs
+├── public/
+│   ├── css/
+│   │   └── styles.css
+│   ├── js/
+│   │   ├── main.js
+│   │   ├── animations.js
+│   │   ├── language.js
+│   │   └── appointment.js
+│   ├── images/
+│   │   ├── doctor/
+│   │   └── site/
+│   ├── favicon.ico
+│   ├── robots.txt
+│   └── sitemap.xml
+└── tests/
+    └── basic-checks.js
+
+You may improve this structure where necessary, but retain clear separation of concerns.
+
+Create every file required for the application to run.
+
+Do not create empty routes, broken navigation, or non-functional buttons.
+
+# 33. ENVIRONMENT AND HOSTING
+
+Create `.env.example` with appropriate variables, such as:
+
+PORT=3000
+NODE_ENV=production
+SITE_URL=https://drrajeebkarmakar.com
+
+Do not put secrets into source control.
+
+The project must support:
+
+npm install
+npm start
+
+If a production build step is required, document it clearly and ensure the necessary output files are available before deployment.
+
+Add deployment instructions for:
+- cPanel Node.js hosting.
+- VPS hosting.
+- Render or compatible Node.js hosting.
+
+For cPanel, explain:
+- Selecting a compatible Node.js version.
+- Uploading the application files.
+- Installing production dependencies.
+- Configuring the application startup file.
+- Configuring the environment.
+- Connecting the domain.
+- Setting DNS records as specified by the hosting provider.
+- Enabling SSL/HTTPS.
+- Restarting the Node.js application.
+- Testing direct page refresh and deep links.
+
+Do not assume a specific hosting provider or invent DNS values.
+
+Explain that appointment requests initially use WhatsApp and do not require a database.
+
+# 34. REQUIRED ROUTES
+
+Implement working routes for:
+
+GET /
+GET /about
+GET /expertise
+GET /chambers
+GET /publications
+GET /contact
+GET /privacy
+
+Also implement:
+- A working not-found route.
+- Centralized error handling.
+- Appropriate appointment-related endpoint(s) if used.
+- Correct server-side data loading.
+
+For every route, ensure navigation and direct URL access work.
+
+Use correct HTTP status codes.
+
+# 35. FUNCTIONAL REQUIREMENTS CHECKLIST
+
+Before calling the project complete, verify:
+
+1. `npm install` succeeds.
+2. `npm start` launches the app.
+3. The home page renders.
+4. All EJS templates render.
+5. The CSS loads.
+6. The JavaScript loads.
+7. The website is bilingual.
+8. The language toggle works.
+9. The selected language persists.
+10. Mobile navigation opens and closes.
+11. Appointment validation works.
+12. WhatsApp links open the correct configured number.
+13. Phone links work.
+14. Facebook link works.
+15. Chamber details display correctly.
+16. Chamber information is editable in one data file.
+17. All supplied publication records are present.
+18. Invalid DOI links are not invented.
+19. Empty optional sections are hidden.
+20. No invented statistics are visible.
+21. No fictional patient reviews are shown.
+22. No private home address is published.
+23. No unconfirmed phone number is published.
+24. Animations work and respect reduced-motion preferences.
+25. Images have correct paths and alt text.
+26. Every public page is mobile-responsive.
+27. Every public page can be refreshed directly.
+28. Metadata and canonical URLs are correct.
+29. robots.txt and sitemap.xml exist.
+30. 404 and 500 pages work.
+31. No secrets are exposed.
+32. No critical browser console errors remain.
+33. The README accurately explains how to install, configure, test, and deploy the project.
+
+Where a test cannot be executed in the available environment, clearly identify it as not run. Never claim that a test passed unless it actually did.
+
+# 36. DESIGN QUALITY GATE
+
+Before finishing, review the actual rendered website as a professional UI/UX designer.
+
+Do not stop at the first functioning version.
+
+Improve:
+- Hero composition.
+- Typography.
+- Section spacing.
+- Image treatment.
+- Responsive layouts.
+- Animation timing.
+- Bengali typography.
+- Contrast.
+- Chamber visibility.
+- Appointment CTA prominence.
+- Research publication readability.
+- Footer layout.
+
+Avoid empty sections and excessive repeated cards.
+
+Ensure the website feels cohesive and specifically designed for this thoracic surgeon.
+
+# 37. IMPLEMENTATION INSTRUCTIONS
+
+Work directly in the available project workspace.
+
+First inspect the environment and identify existing files.
+
+Then:
+
+1. Create the project architecture.
+2. Create the centralized doctor data.
+3. Implement the Express server and routes.
+4. Implement the EJS page templates and shared components.
+5. Implement the premium responsive visual design.
+6. Add GSAP animations and reduced-motion fallbacks.
+7. Implement bilingual functionality.
+8. Implement the appointment-to-WhatsApp flow.
+9. Add SEO and security configuration.
+10. Add error handling and fallback behavior.
+11. Add README and deployment instructions.
+12. Run available checks.
+13. Fix errors before completing.
+
+Do not overwrite useful existing project files without inspecting them first.
+
+Do not output only an outline.
+
+Do not stop after generating the homepage.
+
+Do not leave critical code as TODO comments, pseudocode, or "implement this later".
+
+If the project is too large to implement in one generation, maintain the existing files and continue in logical phases until all required components are complete.
+
+# 38. FINAL DELIVERABLE
+
+The completed deliverable must include:
+
+- A working Node.js website.
+- All required source files.
+- Centralized editable doctor data.
+- Bilingual content.
+- Responsive premium design.
+- Working animations.
+- Actual doctor images correctly mapped.
+- Chamber and visiting information.
+- Call and WhatsApp integration.
+- Appointment request flow.
+- Full research publications section.
+- SEO configuration.
+- Security configuration.
+- 404 and 500 pages.
+- Privacy policy.
+- `.env.example`.
+- `README.md`.
+- cPanel deployment instructions.
+- A test and verification summary.
+
+When finished, report:
+1. Files created.
+2. Features implemented.
+3. Commands to run locally.
+4. How to change doctor information.
+5. How to replace images.
+6. How to deploy to cPanel.
+7. Which tests actually passed.
+8. Any remaining items requiring real-world confirmation.
+
+Build the actual application now. Prioritize correctness, visual quality, and a working result over generating a large amount of untested code.

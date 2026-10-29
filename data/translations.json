@@ -1,0 +1,77 @@
+{
+  "nav": {
+    "home": { "en": "Home", "bn": "মূলপাতা" },
+    "about": { "en": "About Doctor", "bn": "ডাক্তার পরিচিতি" },
+    "expertise": { "en": "Expertise & Procedures", "bn": "চিকিৎসা ও সার্জারি" },
+    "qualifications": { "en": "Qualifications", "bn": "ডিগ্রি ও যোগ্যতা" },
+    "chambers": { "en": "Chambers & Hours", "bn": "চেম্বার ও সময়সূচি" },
+    "publications": { "en": "Research & Publications", "bn": "গবেষণা ও প্রকাশনা" },
+    "faq": { "en": "FAQ", "bn": "সাধারণ জিজ্ঞাসা" },
+    "contact": { "en": "Contact & Serial", "bn": "যোগাযোগ ও সিরিয়াল" },
+    "bookAppointment": { "en": "Book Appointment", "bn": "সিরিয়াল নিন" }
+  },
+  "hero": {
+    "badge": { "en": "Thoracic & Oesophageal Surgeon", "bn": "বক্ষ ও খাদ্যনালী সার্জন" },
+    "subtitle": { "en": "Assistant Professor, Department of Thoracic Surgery, Faridpur Medical College Hospital", "bn": "সহকারী অধ্যাপক, থোরাসিক সার্জারি বিভাগ, ফরিদপুর মেডিকেল কলেজ হাসপাতাল" },
+    "consultationBtn": { "en": "Book Chamber Serial", "bn": "চেম্বার সিরিয়াল বুক করুন" },
+    "expertiseBtn": { "en": "Clinical Specialties", "bn": "বিশেষজ্ঞ চিকিৎসাসমূহ" },
+    "callDirect": { "en": "Call for Appointment", "bn": "সরাসরি সিরিয়াল কল" },
+    "verifiedNotice": { "en": "BMDC Reg: A-61665 | 12+ Years Clinical Experience", "bn": "বিএমডিসি রেজি: A-61665 | ১২+ বছরের ক্লিনিক্যাল অভিজ্ঞতা" }
+  },
+  "common": {
+    "callNow": { "en": "Call Now", "bn": "কল করুন" },
+    "whatsappChat": { "en": "WhatsApp Consultation", "bn": "হোয়াটসঅ্যাপে মেসেজ" },
+    "viewChambers": { "en": "View Visiting Hours", "bn": "চেম্বারের সময়সূচি" },
+    "readMore": { "en": "Read Full Profile", "bn": "বিস্তারিত পরিচিতি" },
+    "viewAll": { "en": "View All", "bn": "সবগুলো দেখুন" },
+    "directions": { "en": "Get Directions", "bn": "ম্যাপে লোকেশন" },
+    "appointmentNotice": { "en": "Appointment requests are coordinated directly with the doctor's chamber assistant.", "bn": "অনুরোধ পাঠানোর পর চেম্বার সহকারীর সাথে সমন্বয় করে সিরিয়াল চূড়ান্ত করা হবে।" },
+    "emergencyBadge": { "en": "Medical Emergency Notice", "bn": "জরুরি সতর্কতা" },
+    "officialWebsite": { "en": "Official Medical Website", "bn": "অফিসিয়াল মেডিকেল পোর্টাল" },
+    "backToTop": { "en": "Back to Top", "bn": "উপরে যান" }
+  },
+  "sections": {
+    "aboutHeading": { "en": "About Dr. Rajeeebshankar Karmakar", "bn": "ডা. রাজীবশঙ্কর কর্মকার সম্পর্কে" },
+    "aboutSub": { "en": "Dedicated Thoracic Surgeon, Surgical Pulmonologist, and Academician", "bn": "অভিজ্ঞ থোরাসিক সার্জন, সার্জিক্যাল পালমোনোলজিস্ট ও শিক্ষক" },
+    "expertiseHeading": { "en": "Chest & Respiratory Conditions Treated", "bn": "ফুসফুস ও বক্ষব্যাধির বিশেষজ্ঞ চিকিৎসা" },
+    "expertiseSub": { "en": "Evidence-based, multidisciplinary diagnosis and advanced surgical interventions", "bn": "আধুনিক চিকিৎসা বিজ্ঞান ও সর্বাধুনিক সার্জিক্যাল পদ্ধতির সুফল" },
+    "proceduresHeading": { "en": "Surgical & Clinical Procedures", "bn": "সার্জিক্যাল ও ক্লিনিক্যাল ইন্টারভেনশন" },
+    "proceduresSub": { "en": "State-of-the-art open, minimally invasive VATS, and endoscopic expertise", "bn": "আধুনিক থোরাসিক সার্জারি, মিনিম্যালি ইনভেসিভ ভ্যাটস ও এন্ডোস্কোপিক সেবা" },
+    "chambersHeading": { "en": "Chambers & Visiting Hours", "bn": "চেম্বার ও রোগী দেখার সময়সূচি" },
+    "chambersSub": { "en": "Regular outpatient consultations in Faridpur and Madaripur", "bn": "ফরিদপুর ও মাদারীপুর চেম্বারে নিয়মিত রোগী দেখার সময়" },
+    "publicationsHeading": { "en": "Research & Publications", "bn": "গবেষণা ও বৈজ্ঞানিক প্রকাশনা" },
+    "publicationsSub": { "en": "Original research contributions in thoracic surgery, pulmonary function, and critical care", "bn": "থোরাসিক সার্জারি, ফুসফুসের কার্যক্ষমতা ও ক্রিটিক্যাল কেয়ার বিষয়ক গবেষণা" },
+    "consultationHeading": { "en": "Online Consultation & Guidance", "bn": "অনলাইন চিকিৎসা পরামর্শ" },
+    "consultationSub": { "en": "Inquire about report reviews, preliminary clinical advice, and follow-up availability", "bn": "পূর্বের রিপোর্ট পর্যালোচনা, ফলো-আপ ও প্রাথমিক পরামর্শের জন্য যোগাযোগ" },
+    "faqHeading": { "en": "Frequently Asked Questions", "bn": "সাধারণ প্রশ্নোত্তর" },
+    "faqSub": { "en": "Helpful details regarding appointments, chamber visits, and consultation", "bn": "অ্যাপয়েন্টমেন্ট, চেম্বারের স্থান ও রোগী দেখার নিয়মাবলী" }
+  },
+  "form": {
+    "title": { "en": "Request an Appointment", "bn": "অ্যাপয়েন্টমেন্টের আবেদন করুন" },
+    "subtitle": { "en": "Fill in the details below to generate a pre-filled WhatsApp serial request", "bn": "নিচের তথ্যগুলো পূরণ করে সরাসরি হোয়াটসঅ্যাপে সিরিয়ালের আবেদন পাঠান" },
+    "nameLabel": { "en": "Patient's Full Name", "bn": "রোগীর পুরো নাম" },
+    "namePlaceholder": { "en": "Enter patient name", "bn": "রোগীর নাম লিখুন" },
+    "phoneLabel": { "en": "Contact Phone Number", "bn": "মোবাইল নম্বর" },
+    "phonePlaceholder": { "en": "e.g. 017XXXXXXXX", "bn": "যেমন: ০১৭১XXXXXXXX" },
+    "chamberLabel": { "en": "Preferred Chamber", "bn": "পছন্দের চেম্বার নির্বাচন করুন" },
+    "selectChamber": { "en": "Select a chamber", "bn": "চেম্বার বেছে নিন" },
+    "dateLabel": { "en": "Preferred Visiting Date", "bn": "সাক্ষাতের সম্ভাব্য তারিখ" },
+    "timeLabel": { "en": "Preferred Time", "bn": "পছন্দের সময়" },
+    "reasonLabel": { "en": "Primary Health Problem", "bn": "প্রধান সমস্যা বা লক্ষণ" },
+    "reasonPlaceholder": { "en": "Briefly describe symptoms (e.g. cough, breathing difficulty, chest pain, report review)", "bn": "সমস্যার বিবরণ (যেমন: কাশি, শ্বাসকষ্ট, বুকে ব্যথা, সিটি স্ক্যান বা টেস্টের রিপোর্ট দেখানো)" },
+    "notesLabel": { "en": "Additional Notes (Optional)", "bn": "অতিরিক্ত তথ্য (ঐচ্ছিক)" },
+    "notesPlaceholder": { "en": "Any previous operation, allergies, or questions", "bn": "পূর্বের কোনো অপারেশন বা বিশেষ কোনো তথ্য" },
+    "submitBtn": { "en": "Send Request via WhatsApp", "bn": "হোয়াটসঅ্যাপে সিরিয়াল পাঠান" },
+    "submitting": { "en": "Preparing Request...", "bn": "প্রস্তুত হচ্ছে..." },
+    "callSerialDirect": { "en": "Or call directly: 01944648809", "bn": "অথবা সরাসরি কল করুন: ০১৯৪৪৬৪৮৮০৯" }
+  },
+  "footer": {
+    "quickLinks": { "en": "Quick Links", "bn": "গুরুত্বপূর্ণ লিংক" },
+    "chamberLocations": { "en": "Visiting Locations", "bn": "চেম্বারের ঠিকানা" },
+    "contactInfo": { "en": "Direct Contact", "bn": "সরাসরি যোগাযোগ" },
+    "bmdcBadge": { "en": "BMDC Registered Medical Practitioner (A-61665)", "bn": "বাংলাদেশ মেডিকেল অ্যান্ড ডেন্টাল কাউন্সিল (BMDC) নিবন্ধিত (A-61665)" },
+    "disclaimer": { "en": "Medical Disclaimer: The clinical information provided on this website is for educational and appointment coordination purposes only. It does not replace individualized diagnosis or medical treatment by a licensed physician. In case of acute medical emergencies, immediately seek emergency hospital care.", "bn": "চিকিৎসা সংক্রান্ত দায়মুক্তি: এই ওয়েবসাইটের তথ্যসমূহ সচেতনতা বৃদ্ধি ও চেম্বার সিরিয়াল সমন্বয়ের উদ্দেশ্যে প্রকাশিত। এটি সরাসরি চিকিৎসকের পরামর্শ বা রোগ নির্ণয়ের বিকল্প নয়। যেকোনো আকস্মিক বা তীব্র জরুরি অবস্থায় অবিলম্বে হাসপাতালে যোগাযোগ করুন।" },
+    "allRights": { "en": "All rights reserved.", "bn": "সর্বস্বত্ব সংরক্ষিত।" },
+    "privacy": { "en": "Privacy Policy", "bn": "গোপনীয়তা নীতি" }
+  }
+}

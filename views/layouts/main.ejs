@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="bn" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= typeof pageTitle !== 'undefined' ? pageTitle : 'Dr. Rajeeebshankar Karmakar' %></title>
+  <meta name="description" content="<%= typeof metaDescription !== 'undefined' ? metaDescription : '' %>">
+  <link rel="canonical" href="<%= typeof canonicalUrl !== 'undefined' ? canonicalUrl : siteUrl %>">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="<%= typeof canonicalUrl !== 'undefined' ? canonicalUrl : siteUrl %>">
+  <meta property="og:title" content="<%= typeof pageTitle !== 'undefined' ? pageTitle : 'Dr. Rajeeebshankar Karmakar' %>">
+  <meta property="og:description" content="<%= typeof metaDescription !== 'undefined' ? metaDescription : '' %>">
+  <meta property="og:image" content="<%= siteUrl %>/images/doctor/doctor-portrait.png">
+  <meta property="og:site_name" content="Dr. Rajeeebshankar Karmakar">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="<%= canonicalUrl %>">
+  <meta name="twitter:title" content="<%= pageTitle %>">
+  <meta name="twitter:description" content="<%= metaDescription %>">
+  <meta name="twitter:image" content="<%= siteUrl %>/images/doctor/doctor-portrait.png">
+
+  <!-- Mobile Theme Color -->
+  <meta name="theme-color" content="#071B49">
+  <meta name="robots" content="index, follow">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="alternate icon" href="/favicon.ico">
+
+  <!-- Google Fonts: Inter & Hind Siliguri -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brandNavy: '#071B49',
+            brandBlue: '#1677D2',
+            brandCyan: '#25C5E8',
+            brandTeal: '#13A89E',
+            brandGray: '#F1F5FA',
+            brandDark: '#15233F'
+          },
+          fontFamily: {
+            sans: ['"Hind Siliguri"', 'Inter', 'sans-serif'],
+            display: ['Inter', '"Hind Siliguri"', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="/css/styles.css">
+
+  <!-- JSON-LD Structured Data: Physician -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Physician",
+    "name": "Dr. Rajeeebshankar Karmakar",
+    "alternateName": "ডা. রাজীবশঙ্কর কর্মকার",
+    "url": "https://drrajeebkarmakar.com",
+    "image": "https://drrajeebkarmakar.com/images/doctor/doctor-main.png",
+    "description": "Assistant Professor of Thoracic Surgery and Chest Specialist at Faridpur Medical College Hospital. Specialized in thoracic surgery, VATS, lung resections, and oesophageal diseases.",
+    "telephone": "+8801944648809",
+    "email": "rajeebfmc16@gmail.com",
+    "medicalSpecialty": [
+      "Thoracic Surgery",
+      "Pulmonology",
+      "Chest Diseases"
+    ],
+    "identifier": {
+      "@type": "PropertyValue",
+      "name": "BMDC Registration Number",
+      "value": "A-61665"
+    },
+    "worksFor": {
+      "@type": "Hospital",
+      "name": "Faridpur Medical College Hospital",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Faridpur",
+        "addressRegion": "Dhaka Division",
+        "addressCountry": "BD"
+      }
+    },
+    "location": [
+      {
+        "@type": "MedicalClinic",
+        "name": "Southern General Hospital",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "West Khabaspur, near Faridpur Medical College Hospital",
+          "addressLocality": "Faridpur",
+          "postalCode": "7800",
+          "addressCountry": "BD"
+        },
+        "telephone": "+8801944648809",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Thursday",
+            "opens": "15:00",
+            "closes": "17:00"
+          }
+        ]
+      },
+      {
+        "@type": "MedicalClinic",
+        "name": "প্রবাসী হাসপাতাল (Probashi Hospital)",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Haoladar Tower, Tekerhat Bus Stand, Rajoir",
+          "addressLocality": "Madaripur",
+          "addressCountry": "BD"
+        },
+        "telephone": "+8801944648809",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Friday",
+            "opens": "10:00",
+            "closes": "15:00"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body class="bg-[#FAFCFF] text-[#15233F] antialiased selection:bg-[#25C5E8]/20 selection:text-[#071B49] min-h-screen flex flex-col font-sans">
+  
+  <!-- Accessible Skip Navigation Link -->
+  <a href="#main-content" class="skip-link">Skip to main content / সরাসরি মূল বিষয়ে যান</a>
+
+  <!-- Global Navigation Header -->
+  <%- include('../partials/navbar') %>
+
+  <!-- Main Content Container -->
+  <main id="main-content" class="flex-grow">
+    <%- body %>
+  </main>
+
+  <!-- Global Footer -->
+  <%- include('../partials/footer') %>
+
+  <!-- Sticky Mobile Action Bar -->
+  <%- include('../partials/mobile-actions') %>
+
+  <!-- Scripts -->
+  <%- include('../partials/scripts') %>
+
+</body>
+</html>
